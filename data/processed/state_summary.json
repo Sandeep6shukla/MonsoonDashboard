@@ -1,0 +1,37 @@
+[
+    {
+        "state": "Unknown",
+        "government_alerts": 93,
+        "severity": "RED",
+        "primary_risk": "Very Heavy Rain is very likely to occur at isolated places over Ernakulam, Idukki, Kottayam, Palakkad, Pathanamthitta, Thrissur, Lakshadweep District in next 24 hours.",
+        "action": "SEND ALERT"
+    },
+    {
+        "state": "West Bengal",
+        "government_alerts": 1,
+        "severity": "RED",
+        "primary_risk": "River Tista at Mekhliganj in Coochbehar district of West Bengal continues to flow in above normal flood situation at 10:00 am today.",
+        "action": "SEND ALERT"
+    },
+    {
+        "state": "Andhra Pradesh",
+        "government_alerts": 1,
+        "severity": "ORANGE",
+        "primary_risk": "There is a possibility of lightning in your area. During thunderstorms, avoid trees, towers, poles, fields, and open spaces. Seek shelter in safe buildings - Andhra Pradesh Government.",
+        "action": "CHECK LOCAL SPOC"
+    },
+    {
+        "state": "Odisha",
+        "government_alerts": 4,
+        "severity": "WATCH",
+        "primary_risk": "Thunderstorm is Very Likely to occur over Balangir district of Odisha. Please follow SDMA guidelines.",
+        "action": "MONITOR"
+    },
+    {
+        "state": "Assam",
+        "government_alerts": 1,
+        "severity": "INFO",
+        "primary_risk": "",
+        "action": "NO ACTION"
+    }
+]

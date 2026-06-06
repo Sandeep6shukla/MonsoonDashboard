@@ -25,12 +25,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780762856751007_43",
@@ -64,12 +59,7 @@
             "Tenkasi",
             "The Nilgiris",
             "Tirunelveli"
-        ],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Transport Risk",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Review road and employee travel conditions."
+        ]
     },
     {
         "identifier": "IN-1780762242043008_8",
@@ -97,12 +87,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780762074085008_8",
@@ -130,12 +115,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780761863123008_8",
@@ -163,12 +143,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780760492833008_8",
@@ -196,12 +171,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780759189099027_27",
@@ -229,12 +199,7 @@
         "affected_states": [
             "Jharkhand"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780759402809008_8",
@@ -262,12 +227,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780759240209008_8",
@@ -295,12 +255,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780758675402028_28",
@@ -328,12 +283,7 @@
         "affected_states": [
             "Rajasthan"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "HIGH",
-        "recommended_action": "Continue monitoring."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780758525272008_8",
@@ -361,12 +311,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780757282963008_8",
@@ -394,12 +339,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780756678993008_8",
@@ -427,12 +367,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780753281208027_27",
@@ -460,12 +395,7 @@
         "affected_states": [
             "Jharkhand"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780756056006008_8",
@@ -493,12 +423,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "RED",
-        "action_status": "TAKE ACTION",
-        "business_category": "General Weather",
-        "business_priority": "CRITICAL",
-        "recommended_action": "Continue monitoring."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780756071009008_8",
@@ -526,12 +451,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780755277048008_8",
@@ -559,12 +479,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780754842298008_8",
@@ -592,12 +507,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780754859663033_55",
@@ -628,12 +538,7 @@
         "affected_districts": [
             "North Goa",
             "South Goa"
-        ],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Monitor transport disruptions."
+        ]
     },
     {
         "identifier": "IN-1780754539354016_16",
@@ -661,12 +566,7 @@
         "affected_states": [
             "Bihar"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780754430802029_29",
@@ -694,12 +594,7 @@
         "affected_states": [
             "Maharashtra"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780754434065029_29",
@@ -727,12 +622,7 @@
         "affected_states": [
             "Maharashtra"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780753342413019_19",
@@ -760,12 +650,7 @@
         "affected_states": [
             "Karnataka"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780753500319012_12",
@@ -793,12 +678,7 @@
         "affected_states": [
             "Odisha"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780753979744008_8",
@@ -826,12 +706,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780753490627019_19",
@@ -859,12 +734,7 @@
         "affected_states": [
             "Karnataka"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780753659937018_60",
@@ -905,12 +775,7 @@
             "Narayanpur",
             "Surajpur",
             "Surguja"
-        ],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Advise employees to avoid open areas."
+        ]
     },
     {
         "identifier": "IN-1780753474719018_60",
@@ -950,12 +815,7 @@
             "Sakti",
             "Sarangarh Bilaigarh",
             "Sukma"
-        ],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        ]
     },
     {
         "identifier": "IN-1780753144856028_28",
@@ -983,12 +843,7 @@
         "affected_states": [
             "Rajasthan"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780753031736028_28",
@@ -1016,12 +871,7 @@
         "affected_states": [
             "Rajasthan"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "HIGH",
-        "recommended_action": "Continue monitoring."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780752998782008_8",
@@ -1049,12 +899,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780751814137021_21",
@@ -1080,12 +925,7 @@
         "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780751814137021",
         "issuing_authority": "Madhya-Pradesh-SDMA",
         "affected_states": [],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "HIGH",
-        "recommended_action": "Continue monitoring."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780752162016033_55",
@@ -1113,12 +953,7 @@
         "affected_states": [
             "Goa"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780751814894021_21",
@@ -1144,12 +979,7 @@
         "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780751814894021",
         "issuing_authority": "Madhya-Pradesh-SDMA",
         "affected_states": [],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780751732039008_8",
@@ -1177,12 +1007,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780751556804008_8",
@@ -1210,12 +1035,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780751194434008_8",
@@ -1243,12 +1063,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780750966794008_8",
@@ -1276,12 +1091,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780750492359008_8",
@@ -1309,12 +1119,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780750307848008_8",
@@ -1342,12 +1147,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780749808049029_29",
@@ -1378,12 +1178,7 @@
         "affected_districts": [
             "Jalgaon",
             "Parbhani"
-        ],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Property Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Review facility preparedness."
+        ]
     },
     {
         "identifier": "IN-1780749803572029_29",
@@ -1414,12 +1209,7 @@
         "affected_districts": [
             "Nashik",
             "Satara"
-        ],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        ]
     },
     {
         "identifier": "IN-1780749709827010_10",
@@ -1445,12 +1235,7 @@
         "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780749709827010",
         "issuing_authority": "Assam-SDMA",
         "affected_states": [],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780749584977008_8",
@@ -1478,12 +1263,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780749329837013_13",
@@ -1511,12 +1291,7 @@
         "affected_states": [
             "Uttar Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780748554914008_8",
@@ -1544,12 +1319,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780748202248016_16",
@@ -1577,12 +1347,7 @@
         "affected_states": [
             "Bihar"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780746765578030_30",
@@ -1608,12 +1373,7 @@
         "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780746765578030",
         "issuing_authority": "Telangana-SDMA",
         "affected_states": [],
-        "affected_districts": [],
-        "dashboard_severity": "RED",
-        "action_status": "TAKE ACTION",
-        "business_category": "General Weather",
-        "business_priority": "CRITICAL",
-        "recommended_action": "Continue monitoring."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780748358003017_17",
@@ -1641,12 +1401,7 @@
         "affected_states": [
             "West Bengal"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780748066093008_8",
@@ -1674,12 +1429,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780747596684008_8",
@@ -1707,12 +1457,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780747257023013_13",
@@ -1740,12 +1485,7 @@
         "affected_states": [
             "Uttar Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780747219859008_8",
@@ -1773,12 +1513,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780746974476008_8",
@@ -1806,12 +1541,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780746699546015_15",
@@ -1841,12 +1571,7 @@
             "Gomati",
             "Sepahijala",
             "South Tripura"
-        ],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Transport Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Review road and employee travel conditions."
+        ]
     },
     {
         "identifier": "IN-1780746521653015_15",
@@ -1876,12 +1601,7 @@
             "Gomati",
             "Sepahijala",
             "South Tripura"
-        ],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Transport Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Review road and employee travel conditions."
+        ]
     },
     {
         "identifier": "IN-1780746144573008_8",
@@ -1909,12 +1629,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780745730748018_60",
@@ -1953,12 +1668,7 @@
             "Sakti",
             "Sarangarh Bilaigarh",
             "Surajpur"
-        ],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Advise employees to avoid open areas."
+        ]
     },
     {
         "identifier": "IN-1780745539488018_18",
@@ -1986,12 +1696,7 @@
         "affected_states": [
             "Chhattisgarh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780745403232013_13",
@@ -2019,12 +1724,7 @@
         "affected_states": [
             "Uttar Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "RED",
-        "action_status": "TAKE ACTION",
-        "business_category": "Travel Risk",
-        "business_priority": "CRITICAL",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780745576044017_17",
@@ -2052,12 +1752,7 @@
         "affected_states": [
             "West Bengal"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780745409012018_18",
@@ -2089,12 +1784,7 @@
             "Bastar",
             "Dantewada",
             "Sukma"
-        ],
-        "dashboard_severity": "RED",
-        "action_status": "TAKE ACTION",
-        "business_category": "Travel Risk",
-        "business_priority": "CRITICAL",
-        "recommended_action": "Monitor transport disruptions."
+        ]
     },
     {
         "identifier": "IN-1780744962143013_13",
@@ -2122,12 +1812,7 @@
         "affected_states": [
             "Uttar Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "RED",
-        "action_status": "TAKE ACTION",
-        "business_category": "Travel Risk",
-        "business_priority": "CRITICAL",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780744848844008_8",
@@ -2155,12 +1840,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780744639799008_8",
@@ -2188,12 +1868,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780744275012013_13",
@@ -2221,12 +1896,7 @@
         "affected_states": [
             "Uttar Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780744286056012_12",
@@ -2254,12 +1924,7 @@
         "affected_states": [
             "Odisha"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "HIGH",
-        "recommended_action": "Continue monitoring."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780744160782013_13",
@@ -2287,12 +1952,7 @@
         "affected_states": [
             "Uttar Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780743116388006_6",
@@ -2320,12 +1980,7 @@
         "affected_states": [
             "Kerala"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Transport Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Review road and employee travel conditions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780744012451008_8",
@@ -2353,12 +2008,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780743019863019_19",
@@ -2386,12 +2036,7 @@
         "affected_states": [
             "Karnataka"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780743118111031_64",
@@ -2417,12 +2062,7 @@
         "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780743118111031",
         "issuing_authority": "IMD-Thiruvananthapuram",
         "affected_states": [],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Transport Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Review road and employee travel conditions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780742815048028_28",
@@ -2450,12 +2090,7 @@
         "affected_states": [
             "Rajasthan"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780742436062028_28",
@@ -2483,12 +2118,7 @@
         "affected_states": [
             "Rajasthan"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "HIGH",
-        "recommended_action": "Continue monitoring."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780742747242008_8",
@@ -2516,12 +2146,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780742415644021_21",
@@ -2547,12 +2172,7 @@
         "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780742415644021",
         "issuing_authority": "Madhya-Pradesh-SDMA",
         "affected_states": [],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "HIGH",
-        "recommended_action": "Continue monitoring."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780742208953027_27",
@@ -2580,12 +2200,7 @@
         "affected_states": [
             "Jharkhand"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780742135854029_29",
@@ -2613,12 +2228,7 @@
         "affected_states": [
             "Maharashtra"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780742416516021_21",
@@ -2644,12 +2254,7 @@
         "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780742416516021",
         "issuing_authority": "Madhya-Pradesh-SDMA",
         "affected_states": [],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780741569001027_27",
@@ -2677,12 +2282,7 @@
         "affected_states": [
             "Jharkhand"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780739142246027_27",
@@ -2714,12 +2314,7 @@
             "Chatra",
             "Hazaribagh",
             "Ramgarh"
-        ],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Monitor transport disruptions."
+        ]
     },
     {
         "identifier": "IN-1780742139053029_29",
@@ -2750,12 +2345,7 @@
         "affected_districts": [
             "Pune",
             "Satara"
-        ],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        ]
     },
     {
         "identifier": "IN-1780742321051017_17",
@@ -2783,12 +2373,7 @@
         "affected_states": [
             "West Bengal"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780741519303013_13",
@@ -2816,12 +2401,7 @@
         "affected_states": [
             "Uttar Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "RED",
-        "action_status": "TAKE ACTION",
-        "business_category": "Travel Risk",
-        "business_priority": "CRITICAL",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780741618182008_8",
@@ -2849,12 +2429,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780740995254008_8",
@@ -2882,12 +2457,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780740729815013_13",
@@ -2915,12 +2485,7 @@
         "affected_states": [
             "Uttar Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "RED",
-        "action_status": "TAKE ACTION",
-        "business_category": "Travel Risk",
-        "business_priority": "CRITICAL",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780740702596008_8",
@@ -2948,12 +2513,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780740454789013_13",
@@ -2981,12 +2541,7 @@
         "affected_states": [
             "Uttar Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "RED",
-        "action_status": "TAKE ACTION",
-        "business_category": "Travel Risk",
-        "business_priority": "CRITICAL",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780739045083029_29",
@@ -3014,12 +2569,7 @@
         "affected_states": [
             "Maharashtra"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780740147483008_8",
@@ -3047,12 +2597,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780739986706008_8",
@@ -3080,12 +2625,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780739466994008_8",
@@ -3113,12 +2653,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780739668132008_8",
@@ -3146,12 +2681,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780739330843012_12",
@@ -3182,12 +2712,7 @@
         "affected_districts": [
             "Cuttack",
             "Khordha"
-        ],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        ]
     },
     {
         "identifier": "IN-1780739261161008_8",
@@ -3215,12 +2740,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780739098867008_8",
@@ -3248,12 +2768,7 @@
         "affected_states": [
             "Andhra Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780737719952009_9",
@@ -3281,12 +2796,7 @@
         "affected_states": [
             "Uttarakhand"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Advise employees to avoid open areas."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780737665051013_13",
@@ -3314,12 +2824,7 @@
         "affected_states": [
             "Uttar Pradesh"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "RED",
-        "action_status": "TAKE ACTION",
-        "business_category": "Travel Risk",
-        "business_priority": "CRITICAL",
-        "recommended_action": "Monitor transport disruptions."
+        "affected_districts": []
     },
     {
         "identifier": "IN-1780737719072009_9",
@@ -3347,11 +2852,6 @@
         "affected_states": [
             "Uttarakhand"
         ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Property Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Review facility preparedness."
+        "affected_districts": []
     }
 ]

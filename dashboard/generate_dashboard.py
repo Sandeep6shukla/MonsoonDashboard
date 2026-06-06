@@ -1,112 +1,98 @@
 import json
-import os
 from datetime import datetime
 
-INPUT_FILE = "data/processed/state_summary.json"
-OUTPUT_FILE = "outputs/dashboard.html"
+EXECUTIVE_FILE = "data/processed/executive_summary.json"
+STATE_FILE = "data/processed/state_summary.json"
+
+OUTPUT_FILE = "docs/index.html"
 
 
-def create_state_card(alert):
+STATUS_ICON = {
+    "CRITICAL": "🔴",
+    "ELEVATED": "🟠",
+    "WATCH": "🟡",
+    "NORMAL": "🟢"
+}
 
-    return f"""
-    <div class="card">
-
-    <h3>{alert['state']}</h3>
-
-    <p><b>Government Alerts:</b> {alert['government_alerts']}</p>
-
-    <p><b>Primary Risk:</b><br>
-    {alert['primary_risk']}</p>
-
-    <p><b>Recommended Action:</b>
-    {alert['action']}</p>
-
-    </div>
-    """
+SEVERITY_ICON = {
+    "RED": "🔴",
+    "ORANGE": "🟠",
+    "WATCH": "🟡",
+    "INFO": "🟢"
+}
 
 
 def generate_dashboard():
 
-    with open(INPUT_FILE, encoding="utf-8") as f:
-        alerts = json.load(f)
+    print()
+    print("=" * 50)
+    print("GENERATING DASHBOARD")
+    print("=" * 50)
 
-    red = [a for a in alerts if a["severity"] == "RED"]
-    orange = [a for a in alerts if a["severity"] == "ORANGE"]
-    watch = [a for a in alerts if a["severity"] == "WATCH"]
-    info = [a for a in alerts if a["severity"] == "INFO"]
+    with open(
+        EXECUTIVE_FILE,
+        encoding="utf-8"
+    ) as f:
 
-    # Overall Status
+        executive = json.load(f)
 
-    if len(red) > 0:
-        overall = "🔴 CRITICAL"
+    with open(
+        STATE_FILE,
+        encoding="utf-8"
+    ) as f:
 
-    elif len(orange) > 0:
-        overall = "🟠 ELEVATED"
+        states = json.load(f)
 
-    elif len(watch) > 0:
-        overall = "🟡 WATCH"
-
-    else:
-        overall = "🟢 NORMAL"
-
-    assessment = datetime.now().strftime(
+    timestamp = datetime.now().strftime(
         "%d %b %Y %H:%M"
     )
 
     html = f"""
+
 <html>
 
 <head>
 
 <title>
-India Business Continuity Weather Intelligence
+
+India Business Continuity Dashboard
+
 </title>
 
 <style>
 
-body {{
-
-font-family: Arial, Helvetica, sans-serif;
-margin: 30px;
-background-color: #f5f5f5;
-
+body{{
+font-family:Arial;
+margin:30px;
+background:#f4f4f4;
 }}
 
-.card {{
-
-background: white;
-padding: 15px;
-margin-bottom: 15px;
-border-radius: 10px;
-box-shadow: 2px 2px 5px lightgray;
-
-}}
-
-.section {{
-
-margin-top:30px;
-
-}}
-
-.summary {{
-
+.card{{
 background:white;
-padding:20px;
-border-radius:10px;
-box-shadow:2px 2px 5px lightgray;
-
+padding:15px;
+margin:10px;
+border-radius:8px;
+box-shadow:2px 2px 5px #ccc;
 }}
 
-h1 {{
-
-color:#003366;
-
+table{{
+border-collapse:collapse;
+width:100%;
+background:white;
 }}
 
-h2 {{
+th,td{{
+border:1px solid #ddd;
+padding:8px;
+text-align:left;
+}}
 
-color:#003366;
+th{{
+background:#eee;
+}}
 
+ul{{
+margin-top:5px;
 }}
 
 </style>
@@ -115,147 +101,344 @@ color:#003366;
 
 <body>
 
+<div class="card">
+
 <h1>
-India Business Continuity Weather Intelligence
+
+🇮🇳 INDIA BUSINESS CONTINUITY
+
 </h1>
 
-<hr>
+<h3>
 
-<div class="summary">
+National Weather Intelligence Dashboard
 
-<h2>Assessment Time</h2>
-
-<p>
-{assessment} IST
-</p>
-
-<h2>Overall Business Status</h2>
-
-<h2>
-{overall}
-</h2>
-
-<hr>
-
-<h2>Executive Summary</h2>
+</h3>
 
 <p>
-🔴 Critical States : {len(red)}
-</p>
 
-<p>
-🟠 High Risk States : {len(orange)}
-</p>
+Assessment Time :
+{timestamp} IST
 
-<p>
-🟡 Monitoring States : {len(watch)}
-</p>
-
-<p>
-🟢 Normal States : {len(info)}
 </p>
 
 </div>
 
-<div class="section">
+<div class="card">
 
 <h2>
-🔴 States Requiring Action
+
+{STATUS_ICON.get(
+executive["overall_status"],
+"⚪"
+)}
+
+Overall Status :
+
+{executive["overall_status"]}
+
+</h2>
+
+<p>
+
+{executive["todays_assessment"]}
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>
+
+🔴 Critical States
+
+</h2>
+
+<ul>
+
+"""
+
+    for state in executive["critical_states"]:
+
+        html += f"<li>{state}</li>"
+
+    html += "</ul>"
+
+    html += """
+
+<h2>
+
+🟠 High Risk States
+
+</h2>
+
+<ul>
+
+"""
+
+    for state in executive["high_risk_states"]:
+
+        html += f"<li>{state}</li>"
+
+    html += "</ul>"
+
+    html += """
+
+<h2>
+
+🟡 Watch States
+
+</h2>
+
+<ul>
+
+"""
+
+    for state in executive["watch_states"]:
+
+        html += f"<li>{state}</li>"
+
+    html += """
+
+</ul>
+
+</div>
+
+"""
+
+    html += """
+
+<div class="card">
+
+<h2>
+
+Top Business Risks
+
+</h2>
+
+<ul>
+
+"""
+
+    for risk in executive["top_business_risks"]:
+
+        if risk in [
+            "General Weather",
+            "Weather Watch"
+        ]:
+            continue
+
+        html += f"<li>{risk}</li>"
+
+    html += """
+
+</ul>
+
+</div>
+
+"""
+
+    html += """
+
+<div class="card">
+
+<h2>
+
+Recommended Actions
+
+</h2>
+
+<ul>
+
+"""
+
+    for action in executive["recommended_actions"]:
+
+        if action == "Continue monitoring.":
+            continue
+
+        html += f"<li>{action}</li>"
+
+    html += """
+
+</ul>
+
+</div>
+
+"""
+
+    html += """
+
+<div class="card">
+
+<h2>
+
+State Risk Matrix
+
+</h2>
+
+<table>
+
+<tr>
+
+<th>State</th>
+
+<th>Severity</th>
+
+<th>Priority</th>
+
+<th>Alerts</th>
+
+<th>Business Risks</th>
+
+</tr>
+
+"""
+
+    for state in states:
+
+        html += f"""
+
+<tr>
+
+<td>
+
+{state["state"]}
+
+</td>
+
+<td>
+
+{SEVERITY_ICON.get(
+state["highest_severity"],
+"⚪"
+)}
+
+{state["highest_severity"]}
+
+</td>
+
+<td>
+
+{state["business_priority"]}
+
+</td>
+
+<td>
+
+{state["alert_count"]}
+
+</td>
+
+<td>
+
+{", ".join(
+state["business_categories"]
+)}
+
+</td>
+
+</tr>
+
+"""
+
+    html += """
+
+</table>
+
+</div>
+
+"""
+
+    html += """
+
+<div class="card">
+
+<h2>
+
+Detailed State Summary
+
 </h2>
 
 """
 
-    if len(red) == 0:
+    for state in states:
 
-        html += """
-        <div class="card">
-        No Critical States
-        </div>
-        """
-
-    else:
-
-        for alert in red:
-            html += create_state_card(alert)
-
-    html += """
-
-</div>
-
-<div class="section">
-
-<h2>
-🟠 States Under Close Watch
-</h2>
-
-"""
-
-    if len(orange) == 0:
-
-        html += """
-        <div class="card">
-        No High Risk States
-        </div>
-        """
-
-    else:
-
-        for alert in orange:
-            html += create_state_card(alert)
-
-    html += """
-
-</div>
-
-<div class="section">
-
-<h2>
-🟡 Monitoring States
-</h2>
-
-"""
-
-    if len(watch) == 0:
-
-        html += """
-        <div class="card">
-        No Monitoring States
-        </div>
-        """
-
-    else:
-
-        for alert in watch:
-            html += create_state_card(alert)
-
-    html += """
-
-</div>
+        html += f"""
 
 <hr>
 
+<h3>
+
+{SEVERITY_ICON.get(
+state["highest_severity"],
+"⚪"
+)}
+
+{state["state"]}
+
+</h3>
+
 <p>
 
-Generated automatically from Government Alert Sources.
+Highest Severity :
+
+{state["highest_severity"]}
 
 </p>
 
 <p>
 
-Prototype Version 1.0
+Business Priority :
+
+{state["business_priority"]}
 
 </p>
+
+<p>
+
+Active Alerts :
+
+{state["alert_count"]}
+
+</p>
+
+<p>
+
+Business Risks :
+
+{", ".join(
+state["business_categories"]
+)}
+
+</p>
+
+<p>
+
+Recommended Actions :
+
+</p>
+
+<ul>
+
+"""
+
+        for action in state["recommended_actions"]:
+
+            html += f"<li>{action}</li>"
+
+        html += "</ul>"
+
+    html += """
+
+</div>
 
 </body>
 
 </html>
 
 """
-
-    os.makedirs(
-        "outputs",
-        exist_ok=True
-    )
 
     with open(
         OUTPUT_FILE,
@@ -266,7 +449,10 @@ Prototype Version 1.0
         f.write(html)
 
     print()
-    print("=" * 50)
-    print("Dashboard Generated Successfully")
-    print("=" * 50)
+    print("Dashboard Created")
     print(OUTPUT_FILE)
+
+
+if __name__ == "__main__":
+
+    generate_dashboard()

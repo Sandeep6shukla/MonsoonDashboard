@@ -1,0 +1,38 @@
+{
+    "overall_status": "CRITICAL",
+    "critical_states": [
+        "Andhra Pradesh",
+        "Chhattisgarh",
+        "Uttar Pradesh"
+    ],
+    "high_risk_states": [
+        "Bihar",
+        "Karnataka",
+        "Kerala",
+        "Maharashtra",
+        "Odisha",
+        "Rajasthan",
+        "Uttarakhand",
+        "West Bengal"
+    ],
+    "watch_states": [
+        "Goa",
+        "Jharkhand",
+        "Tamil Nadu"
+    ],
+    "top_business_risks": [
+        "Employee Safety",
+        "General Weather",
+        "Property Risk",
+        "Transport Risk",
+        "Travel Risk"
+    ],
+    "recommended_actions": [
+        "Advise employees to avoid open areas.",
+        "Continue monitoring.",
+        "Monitor transport disruptions.",
+        "Review facility preparedness.",
+        "Review road and employee travel conditions."
+    ],
+    "todays_assessment": "Overall business continuity status is CRITICAL. Critical states: Andhra Pradesh, Chhattisgarh, Uttar Pradesh. High risk states: Bihar, Karnataka, Kerala, Maharashtra, Odisha, Rajasthan, Uttarakhand, West Bengal. Primary business risks include Employee Safety, General Weather, Property Risk, Transport Risk, Travel Risk. Continue monitoring official advisories."
+}

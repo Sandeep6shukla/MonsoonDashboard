@@ -20,17 +20,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780762854317008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 16:21:36 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780762854317008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780762854317008"
     },
     {
         "identifier": "IN-1780762856751007_43",
@@ -53,23 +43,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780762856751007",
         "rss_title": "Light to Moderate Rain with Thunderstorm and Lightning is likely to occur at isolated places over Coimbatore, Kanniyakumari, Tenkasi, The Nilgiris, Tirunelveli in next 3 hours.",
         "rss_published": "Sat, 06 Jun 2026 16:20:59 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780762856751007",
-        "issuing_authority": "IMD-Chennai",
-        "affected_states": [
-            "Tamil Nadu"
-        ],
-        "affected_districts": [
-            "Coimbatore",
-            "Kanniyakumari",
-            "Tenkasi",
-            "The Nilgiris",
-            "Tirunelveli"
-        ],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Transport Risk",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Review road and employee travel conditions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780762856751007"
     },
     {
         "identifier": "IN-1780762242043008_8",
@@ -92,17 +66,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780762242043008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 16:11:25 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780762242043008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780762242043008"
     },
     {
         "identifier": "IN-1780762074085008_8",
@@ -125,17 +89,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780762074085008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 16:08:43 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780762074085008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780762074085008"
     },
     {
         "identifier": "IN-1780761863123008_8",
@@ -158,17 +112,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780761863123008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 16:05:14 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780761863123008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780761863123008"
     },
     {
         "identifier": "IN-1780760492833008_8",
@@ -191,17 +135,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780760492833008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 15:42:46 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780760492833008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780760492833008"
     },
     {
         "identifier": "IN-1780759189099027_27",
@@ -224,17 +158,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780759189099027",
         "rss_title": "अगले 3 घंटों में आपके क्षेत्र में कुछ स्थानों पर बारिश के साथ सतही हवा (30-40 किमी प्रति घंटे) के साथ हल्की आंधी आने की संभावना है।सतर्क रहें।आपदा प्रबंधन विभाग झारखंड राँची।",
         "rss_published": "Sat, 06 Jun 2026 15:35:20 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780759189099027",
-        "issuing_authority": "Jharkhand-SDMA",
-        "affected_states": [
-            "Jharkhand"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780759189099027"
     },
     {
         "identifier": "IN-1780759402809008_8",
@@ -257,17 +181,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780759402809008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 15:32:55 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780759402809008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780759402809008"
     },
     {
         "identifier": "IN-1780759240209008_8",
@@ -290,17 +204,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780759240209008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 15:21:27 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780759240209008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780759240209008"
     },
     {
         "identifier": "IN-1780758675402028_28",
@@ -323,17 +227,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780758675402028",
         "rss_title": "अगले 3 घंटों में अजमेर, ब्यावर, भीलवाड़ा, बीकानेर, बूंदी, दौसा, डीडवाना-कुचामन, जयपुर, नागौर, सवाई माधोपुर और टोंक में मध्यम बारिश, ओलावृष्टि, धूल भरी आंधी और बिजली गिरने की संभावना है। DMRD",
         "rss_published": "Sat, 06 Jun 2026 15:14:45 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780758675402028",
-        "issuing_authority": "Rajasthan-SDMA",
-        "affected_states": [
-            "Rajasthan"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "HIGH",
-        "recommended_action": "Continue monitoring."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780758675402028"
     },
     {
         "identifier": "IN-1780758525272008_8",
@@ -356,17 +250,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780758525272008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 15:09:28 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780758525272008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780758525272008"
     },
     {
         "identifier": "IN-1780757282963008_8",
@@ -389,17 +273,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780757282963008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 14:49:04 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780757282963008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780757282963008"
     },
     {
         "identifier": "IN-1780756678993008_8",
@@ -422,17 +296,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780756678993008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 14:38:42 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780756678993008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780756678993008"
     },
     {
         "identifier": "IN-1780753281208027_27",
@@ -455,17 +319,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780753281208027",
         "rss_title": "अगले 3 घंटों में आपके क्षेत्र में अलग-अलग स्थानों पर बारिश के साथ सतही हवा (30-40 किमी प्रति घंटे की रफ्तार से) के साथ हल्की आंधी आने की संभावना है।आपदा प्रबंधन विभाग झारखंड राँची।",
         "rss_published": "Sat, 06 Jun 2026 14:33:41 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780753281208027",
-        "issuing_authority": "Jharkhand-SDMA",
-        "affected_states": [
-            "Jharkhand"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780753281208027"
     },
     {
         "identifier": "IN-1780756056006008_8",
@@ -488,17 +342,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780756056006008",
         "rss_title": "రేపు మీ ప్రాంతంలో ఎండ తీవ్రతతో పాటు తీవ్రవడగాల్పులు వీచే అవకాశం ఉంది. తలకి టోపి/రూమాలు కట్టుకోవాలి. మంచి నీరు,మజ్జిగ,గ్లూకోజు,నిమ్మరసము,కొబ్బరినీరు,ORS త్రాగవలెను. ~ఆంధ్రప్రదేశ్ ప్రభుత్వం",
         "rss_published": "Sat, 06 Jun 2026 14:29:43 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780756056006008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "RED",
-        "action_status": "TAKE ACTION",
-        "business_category": "General Weather",
-        "business_priority": "CRITICAL",
-        "recommended_action": "Continue monitoring."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780756056006008"
     },
     {
         "identifier": "IN-1780756071009008_8",
@@ -521,17 +365,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780756071009008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 14:28:30 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780756071009008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780756071009008"
     },
     {
         "identifier": "IN-1780755277048008_8",
@@ -554,17 +388,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780755277048008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 14:26:29 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780755277048008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780755277048008"
     },
     {
         "identifier": "IN-1780754842298008_8",
@@ -587,17 +411,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780754842298008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 14:08:24 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780754842298008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780754842298008"
     },
     {
         "identifier": "IN-1780754859663033_55",
@@ -620,20 +434,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780754859663033",
         "rss_title": "Thundershowers accompanied with lightning, and strong surface winds gusting to 30-40 kmph are  likely to occur at isolated places over talukas of North Goa, South Goa for next 3 hours.",
         "rss_published": "Sat, 06 Jun 2026 14:07:41 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780754859663033",
-        "issuing_authority": "IMD-Goa",
-        "affected_states": [
-            "Goa"
-        ],
-        "affected_districts": [
-            "North Goa",
-            "South Goa"
-        ],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780754859663033"
     },
     {
         "identifier": "IN-1780754539354016_16",
@@ -656,17 +457,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780754539354016",
         "rss_title": "अगले 3 घंटों में अरवल, गया, जहानाबाद, नालंदा, पटना, औरंगाबाद, रोहतास के कुछ स्थानों पर बिजली गिरने के साथ गरज के साथ बारिश होने की बहुत अधिक संभावना है।",
         "rss_published": "Sat, 06 Jun 2026 14:06:39 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780754539354016",
-        "issuing_authority": "Bihar-SDMA",
-        "affected_states": [
-            "Bihar"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780754539354016"
     },
     {
         "identifier": "IN-1780754430802029_29",
@@ -689,17 +480,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780754430802029",
         "rss_title": "पुढील 3 तासात आपल्या जिल्ह्यात विजांच्या कडकडाटासह मेघगर्जना, हलका ते मध्यम पाऊस आणि ताशी ३०-४० किमी वेगाने वाहणाऱ्या सोसाट्याच्या वाऱ्यासह पाऊस पडण्याची दाट शक्यता आहे.नागरिकांनी सतर्क राहवे.",
         "rss_published": "Sat, 06 Jun 2026 14:05:06 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780754430802029",
-        "issuing_authority": "Maharashtra-SDMA",
-        "affected_states": [
-            "Maharashtra"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780754430802029"
     },
     {
         "identifier": "IN-1780754434065029_29",
@@ -722,17 +503,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780754434065029",
         "rss_title": "आपल्या जिल्ह्यात काही ठिकाणी विजांच्या कडकडाटासह मेघगर्जना, हलक्या पावसाच्या सरी आणि ताशी ३०-४० किमी वेगाने वाहणाऱ्या सोसाट्याच्या वाऱ्यासह पाऊस पडण्याची दाट शक्यता आहे. मंत्रालय, मुंबई.",
         "rss_published": "Sat, 06 Jun 2026 14:04:14 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780754434065029",
-        "issuing_authority": "Maharashtra-SDMA",
-        "affected_states": [
-            "Maharashtra"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780754434065029"
     },
     {
         "identifier": "IN-1780753342413019_19",
@@ -755,17 +526,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780753342413019",
         "rss_title": "ಮುಂದಿನ 3 ಗಂಟೆಗಳಲ್ಲಿ ಬೆಳಗಾವಿ, ಗದಗ, ಕಲಬುರಗಿ, ಕೊಪ್ಪಳ, ರಾಯಚೂರು, ವಿಜಯಪುರ ಜಿಲ್ಲೆಗಳ ಕೆಲವು ಸ್ಥಳಗಳಲ್ಲಿ ಗುಡುಗು ಸಹಿತ ಬಲವಾದ ಗಾಳಿಯೊಂದಿಗೆ ಮಳೆಯಾಗುವ ಸಾಧ್ಯತೆಯಿದೆ. ಮೂಲ: - IMD BNG",
         "rss_published": "Sat, 06 Jun 2026 13:55:40 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780753342413019",
-        "issuing_authority": "Karnataka-SNDMC",
-        "affected_states": [
-            "Karnataka"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780753342413019"
     },
     {
         "identifier": "IN-1780753500319012_12",
@@ -788,17 +549,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780753500319012",
         "rss_title": "ଭାରତ ପାଣିପାଗ ବିଭାଗର ତଥ୍ୟ ଅନୁଯାୟୀ, ଆଗାମୀ ତିନି ଘଣ୍ଟା ମଧ୍ୟରେ ଆପଣଙ୍କ ଅଞ୍ଚଳରେ ବଜ୍ରପାତ ସହିତ ବର୍ଷା ଓ ଘୁର୍ଣ୍ଣିଝଡ଼ ହେବାର ସମ୍ଭାବନା ଅଛି । ଏଥିପ୍ରତି ସତର୍କ ରହିବାକୁ ଅନୁରୋଧ । SRC, Odisha",
         "rss_published": "Sat, 06 Jun 2026 13:53:52 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780753500319012",
-        "issuing_authority": "Odisha-SDMA",
-        "affected_states": [
-            "Odisha"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780753500319012"
     },
     {
         "identifier": "IN-1780753979744008_8",
@@ -821,17 +572,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780753979744008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 13:53:39 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780753979744008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780753979744008"
     },
     {
         "identifier": "IN-1780753490627019_19",
@@ -854,17 +595,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780753490627019",
         "rss_title": "ಮುಂದಿನ 3 ಗಂಟೆಗಳಲ್ಲಿ ಬಾಗಲಕೋಟೆ, ಬಳ್ಳಾರಿ, ಬೀದರ್, ಚಿತ್ರದುರ್ಗ, ದಕ್ಷಿಣ ಕನ್ನಡ, ದಾವಣಗೆರೆ, ಧಾರವಾಡ, ಹಾವೇರಿ, ಶಿವಮೊಗ್ಗ, ತುಮಕೂರು, ಉಡುಪಿ, ಉತ್ತರ ಕನ್ನಡ, ವಿಜಯನಗರ, ಯಾದಗಿರಿ ಜಿಲ್ಲೆಗಳ ಪ್ರತ್ಯೇಕ ಸ್ಥಳಗಳಲ್ಲಿ ಗುಡುಗು ಸಹ",
         "rss_published": "Sat, 06 Jun 2026 13:53:21 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780753490627019",
-        "issuing_authority": "Karnataka-SNDMC",
-        "affected_states": [
-            "Karnataka"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780753490627019"
     },
     {
         "identifier": "IN-1780753659937018_60",
@@ -887,30 +618,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780753659937018",
         "rss_title": "Thunderstorm with Lightning,surface wind and rain is likely to occur at isolated places over Balodabazar, Bijapur, Dhamtari, Gaurella Pendra Marwahi, Janjgir-Champa, Kanker, Korba, Koriya, Manendragarh Chirimiri Bharatpur, Narayanpur, Surajpur, Surguja in next 3 hours.",
         "rss_published": "Sat, 06 Jun 2026 13:47:42 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780753659937018",
-        "issuing_authority": "IMD-Raipur",
-        "affected_states": [
-            "Chhattisgarh"
-        ],
-        "affected_districts": [
-            "Balodabazar",
-            "Bijapur",
-            "Dhamtari",
-            "Gaurella Pendra Marwahi",
-            "Janjgir-Champa",
-            "Kanker",
-            "Korba",
-            "Koriya",
-            "Manendragarh Chirimiri Bharatpur",
-            "Narayanpur",
-            "Surajpur",
-            "Surguja"
-        ],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780753659937018"
     },
     {
         "identifier": "IN-1780753474719018_60",
@@ -933,29 +641,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780753474719018",
         "rss_title": "Moderate Thunderstorms with lightning, surface wind and rain is likely to occur at isolated places over Balrampur, Bastar, Dantewada, Gariyaband, Jashpur, Kondagaon, Mahasamund, Raigarh, Sakti, Sarangarh Bilaigarh, Sukma in next 3 hours.",
         "rss_published": "Sat, 06 Jun 2026 13:44:37 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780753474719018",
-        "issuing_authority": "IMD-Raipur",
-        "affected_states": [
-            "Chhattisgarh"
-        ],
-        "affected_districts": [
-            "Balrampur",
-            "Bastar",
-            "Dantewada",
-            "Gariyaband",
-            "Jashpur",
-            "Kondagaon",
-            "Mahasamund",
-            "Raigarh",
-            "Sakti",
-            "Sarangarh Bilaigarh",
-            "Sukma"
-        ],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780753474719018"
     },
     {
         "identifier": "IN-1780753144856028_28",
@@ -978,17 +664,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780753144856028",
         "rss_title": "अगले 3 घंटों में अजमेर, ब्यावर, बूंदी, जोधपुर और फलोदी में कुछ जगहों पर ज़मीनी हवाओं और बारिश के साथ मध्यम दर्जे की आंधी-तूफान की संभावना है। DMRD",
         "rss_published": "Sat, 06 Jun 2026 13:43:00 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780753144856028",
-        "issuing_authority": "Rajasthan-SDMA",
-        "affected_states": [
-            "Rajasthan"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780753144856028"
     },
     {
         "identifier": "IN-1780753031736028_28",
@@ -1011,17 +687,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780753031736028",
         "rss_title": "Thundering,Hailstorm,Gusty winds, rain is very likely to occur at isolated places over Alwar,Baran,Bharatpur,Bikaner,Chittorgarh,Churu,Dausa,Deeg,Dholpur,Didwana-Kuchaman,Jaipur,Jhunjhunu,Karauli,Khairthal-Tijara,Kotputli-Behror,Nagaur,Pratapgarh,Salumbar,Sawai Madhopur,Sikar,Tonk,Udaipur in next 3 hours.",
         "rss_published": "Sat, 06 Jun 2026 13:40:18 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780753031736028",
-        "issuing_authority": "Rajasthan-SDMA",
-        "affected_states": [
-            "Rajasthan"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "HIGH",
-        "recommended_action": "Continue monitoring."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780753031736028"
     },
     {
         "identifier": "IN-1780752998782008_8",
@@ -1044,17 +710,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780752998782008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 13:37:25 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780752998782008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780752998782008"
     },
     {
         "identifier": "IN-1780751814137021_21",
@@ -1077,15 +733,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780751814137021",
         "rss_title": "अगले 3 घंटों में अलग-अलग स्थानों पर बिजली/ओलावृष्टि (हवा की गति 70 किमी प्रति घंटे तक) के साथ मध्यम गरज के साथ बारिश होने की संभावना है।",
         "rss_published": "Sat, 06 Jun 2026 13:25:01 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780751814137021",
-        "issuing_authority": "Madhya-Pradesh-SDMA",
-        "affected_states": [],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "HIGH",
-        "recommended_action": "Continue monitoring."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780751814137021"
     },
     {
         "identifier": "IN-1780752162016033_55",
@@ -1108,17 +756,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780752162016033",
         "rss_title": "Thundershowers accompanied with lightning, and strong surface winds gusting to 40-50 kmph are  likely to occur at isolated places over talukas of Sattari, Dharbandora, Pernem, Sanguem and other talukas of North Goa, South Goa for next 3 hours.",
         "rss_published": "Sat, 06 Jun 2026 13:22:43 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780752162016033",
-        "issuing_authority": "IMD-Goa",
-        "affected_states": [
-            "Goa"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780752162016033"
     },
     {
         "identifier": "IN-1780751814894021_21",
@@ -1141,15 +779,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780751814894021",
         "rss_title": "अगले 3 घंटों में अलग-अलग स्थानों पर बिजली चमकने के साथ हल्की आंधी (तेज गति से हवा चलने की संभावना है)।",
         "rss_published": "Sat, 06 Jun 2026 13:21:27 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780751814894021",
-        "issuing_authority": "Madhya-Pradesh-SDMA",
-        "affected_states": [],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780751814894021"
     },
     {
         "identifier": "IN-1780751732039008_8",
@@ -1172,17 +802,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780751732039008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 13:16:23 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780751732039008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780751732039008"
     },
     {
         "identifier": "IN-1780751556804008_8",
@@ -1205,17 +825,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780751556804008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 13:13:26 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780751556804008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780751556804008"
     },
     {
         "identifier": "IN-1780751194434008_8",
@@ -1238,17 +848,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780751194434008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 13:07:17 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780751194434008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780751194434008"
     },
     {
         "identifier": "IN-1780750966794008_8",
@@ -1271,17 +871,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780750966794008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 13:03:40 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780750966794008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780750966794008"
     },
     {
         "identifier": "IN-1780750492359008_8",
@@ -1304,17 +894,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780750492359008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 12:55:41 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780750492359008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780750492359008"
     },
     {
         "identifier": "IN-1780750307848008_8",
@@ -1337,17 +917,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780750307848008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 12:52:52 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780750307848008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780750307848008"
     },
     {
         "identifier": "IN-1780749808049029_29",
@@ -1370,20 +940,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780749808049029",
         "rss_title": "आपल्या जिल्ह्यात काही ठिकाणी विजांच्या कडकडाटासह मेघगर्जना व हलक्या ते मध्यम पावसाच्या सरींची व ताशी ३०-४० किमी वेगाने सोसाट्याचा वारा वाहण्याची तसेच काही ठिकाणी गारपीट होण्याचीही शक्यता आहे.",
         "rss_published": "Sat, 06 Jun 2026 12:49:37 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780749808049029",
-        "issuing_authority": "Maharashtra-SDMA",
-        "affected_states": [
-            "Maharashtra"
-        ],
-        "affected_districts": [
-            "Jalgaon",
-            "Parbhani"
-        ],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Property Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Review facility preparedness."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780749808049029"
     },
     {
         "identifier": "IN-1780749803572029_29",
@@ -1406,20 +963,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780749803572029",
         "rss_title": "पुढील 3 तासात आपल्या जिल्ह्यात विजांच्या कडकडाटासह मेघगर्जना, हलका ते मध्यम पाऊस आणि ताशी ३०-४० किमी वेगाने वाहणाऱ्या सोसाट्याच्या वाऱ्यासह पाऊस पडण्याची दाट शक्यता आहे. नागरिकांनी सतर्क राहवे",
         "rss_published": "Sat, 06 Jun 2026 12:47:32 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780749803572029",
-        "issuing_authority": "Maharashtra-SDMA",
-        "affected_states": [
-            "Maharashtra"
-        ],
-        "affected_districts": [
-            "Nashik",
-            "Satara"
-        ],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780749803572029"
     },
     {
         "identifier": "IN-1780749709827010_10",
@@ -1442,15 +986,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780749709827010",
         "rss_title": "Due to continuous increase of water level of River Brahmaputra at Neamatighat in Jorhat district of Assam, Citizens are advised to stay away from the river. Issued in Public Interest by ASDMA",
         "rss_published": "Sat, 06 Jun 2026 12:46:04 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780749709827010",
-        "issuing_authority": "Assam-SDMA",
-        "affected_states": [],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780749709827010"
     },
     {
         "identifier": "IN-1780749584977008_8",
@@ -1473,17 +1009,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780749584977008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 12:40:32 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780749584977008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780749584977008"
     },
     {
         "identifier": "IN-1780749329837013_13",
@@ -1506,17 +1032,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780749329837013",
         "rss_title": "अगले 3 घंटों में आपके जनपद में कुछ जगहों पर बिजली चमकने और हल्की से मध्यम बारिश/ओलावृष्टि के साथ मध्यम दर्जे की आंधी (हवा की गति 40-60 किमी/घंटा से 70 किमी/घंटा तक) आने की संभावना है।",
         "rss_published": "Sat, 06 Jun 2026 12:38:02 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780749329837013",
-        "issuing_authority": "Uttar-Pradesh-SDMA",
-        "affected_states": [
-            "Uttar Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780749329837013"
     },
     {
         "identifier": "IN-1780748554914008_8",
@@ -1539,17 +1055,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780748554914008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 12:23:32 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780748554914008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780748554914008"
     },
     {
         "identifier": "IN-1780748202248016_16",
@@ -1572,17 +1078,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780748202248016",
         "rss_title": "अगले 3 घंटों में अरवल,भोजपुर,बक्सरऔररोहतास के कई स्थानों पर बिजली गिरने/तेज हवाओं (40-50 किमी प्रति घंटा) के साथ मध्यम गरज के साथ बौछारें पड़ने और हल्की से मध्यम बारिश होने की बहुत संभावना है।",
         "rss_published": "Sat, 06 Jun 2026 12:21:40 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780748202248016",
-        "issuing_authority": "Bihar-SDMA",
-        "affected_states": [
-            "Bihar"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780748202248016"
     },
     {
         "identifier": "IN-1780746765578030_30",
@@ -1605,15 +1101,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780746765578030",
         "rss_title": "Moderate Thunderstorms with rain is very likely to occur at most places over Hyderabad, Mahabubnagar, Medak, Medchal Malkajgiri, Nalgonda, Ranga Reddy, Sangareddy, Siddipet, Vikarabad, Yadadri Bhuvanagiri in next 3 hours - By TGiCCC .",
         "rss_published": "Sat, 06 Jun 2026 12:21:14 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780746765578030",
-        "issuing_authority": "Telangana-SDMA",
-        "affected_states": [],
-        "affected_districts": [],
-        "dashboard_severity": "RED",
-        "action_status": "TAKE ACTION",
-        "business_category": "General Weather",
-        "business_priority": "CRITICAL",
-        "recommended_action": "Continue monitoring."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780746765578030"
     },
     {
         "identifier": "IN-1780748358003017_17",
@@ -1636,17 +1124,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780748358003017",
         "rss_title": "Moderate Thunderstorm and lightning accompanied with light to moderate rain and gusty wind with speed 40-50 kmph. very likely to affect over some parts of Bankura, Purulia, East Burdwan, West Burdwan districts during next 2-3 hours from 17:45, 06-06-2026.",
         "rss_published": "Sat, 06 Jun 2026 12:20:51 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780748358003017",
-        "issuing_authority": "West-Bengal-SDMA",
-        "affected_states": [
-            "West Bengal"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780748358003017"
     },
     {
         "identifier": "IN-1780748066093008_8",
@@ -1669,17 +1147,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780748066093008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 12:15:08 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780748066093008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780748066093008"
     },
     {
         "identifier": "IN-1780747596684008_8",
@@ -1702,17 +1170,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780747596684008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 12:07:29 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780747596684008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780747596684008"
     },
     {
         "identifier": "IN-1780747257023013_13",
@@ -1735,17 +1193,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780747257023013",
         "rss_title": "अगले 3 घंटों में आपके जनपद में कुछ जगहों पर बिजली चमकने और हल्की से मध्यम बारिश के साथ मध्यम दर्जे की आंधी (हवा की गति 40-60 किमी/घंटा, झोंकों के साथ 70 किमी/घंटा तक) आने की संभावना है।",
         "rss_published": "Sat, 06 Jun 2026 12:03:58 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780747257023013",
-        "issuing_authority": "Uttar-Pradesh-SDMA",
-        "affected_states": [
-            "Uttar Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780747257023013"
     },
     {
         "identifier": "IN-1780747219859008_8",
@@ -1768,17 +1216,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780747219859008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 12:01:05 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780747219859008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780747219859008"
     },
     {
         "identifier": "IN-1780746974476008_8",
@@ -1801,17 +1239,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780746974476008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 11:57:33 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780746974476008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780746974476008"
     },
     {
         "identifier": "IN-1780746699546015_15",
@@ -1834,19 +1262,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780746699546015",
         "rss_title": "Moderate Rain with Light to moderate Thunderstorm and Lightening is very likely to occur at a few places over Gomati, Sepahijala, South Tripura in next 1-2 hours.",
         "rss_published": "Sat, 06 Jun 2026 11:53:29 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780746699546015",
-        "issuing_authority": "Tripura-SDMA",
-        "affected_states": [],
-        "affected_districts": [
-            "Gomati",
-            "Sepahijala",
-            "South Tripura"
-        ],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Transport Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Review road and employee travel conditions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780746699546015"
     },
     {
         "identifier": "IN-1780746521653015_15",
@@ -1869,19 +1285,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780746521653015",
         "rss_title": "Moderate Rain with Light to moderate Thunderstorm is very likely to occur at a few places over Gomati, Sepahijala, South Tripura in next 1-2 hours.",
         "rss_published": "Sat, 06 Jun 2026 11:51:13 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780746521653015",
-        "issuing_authority": "Tripura-SDMA",
-        "affected_states": [],
-        "affected_districts": [
-            "Gomati",
-            "Sepahijala",
-            "South Tripura"
-        ],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Transport Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Review road and employee travel conditions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780746521653015"
     },
     {
         "identifier": "IN-1780746144573008_8",
@@ -1904,17 +1308,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780746144573008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 11:43:24 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780746144573008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780746144573008"
     },
     {
         "identifier": "IN-1780745730748018_60",
@@ -1937,28 +1331,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780745730748018",
         "rss_title": "Thunderstorm with Lightning, surface wind and rain is likely to occur at isolated places over Dhamtari, Gariyaband, Gaurella Pendra Marwahi, Kanker, Korba, Koriya, Manendragarh Chirimiri Bharatpur, Sakti, Sarangarh Bilaigarh, Surajpur in next 3 hours.",
         "rss_published": "Sat, 06 Jun 2026 11:35:33 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780745730748018",
-        "issuing_authority": "IMD-Raipur",
-        "affected_states": [
-            "Chhattisgarh"
-        ],
-        "affected_districts": [
-            "Dhamtari",
-            "Gariyaband",
-            "Gaurella Pendra Marwahi",
-            "Kanker",
-            "Korba",
-            "Koriya",
-            "Manendragarh Chirimiri Bharatpur",
-            "Sakti",
-            "Sarangarh Bilaigarh",
-            "Surajpur"
-        ],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780745730748018"
     },
     {
         "identifier": "IN-1780745539488018_18",
@@ -1981,17 +1354,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780745539488018",
         "rss_title": "Moderate Thunderstorms with lightning, surface wind and rain is likely to occur at isolated places over Balrampur, Bijapur, Jashpur, Kondagaon, Narayanpur, Raigarh, Surguja in next 3 hours.",
         "rss_published": "Sat, 06 Jun 2026 11:34:51 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780745539488018",
-        "issuing_authority": "Chhattisgarh-SDMA",
-        "affected_states": [
-            "Chhattisgarh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780745539488018"
     },
     {
         "identifier": "IN-1780745403232013_13",
@@ -2014,17 +1377,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780745403232013",
         "rss_title": "अगले 3 घंटों में आपके जनपद में कुछ जगहों पर तेज़ आंधी-तूफ़ान (हवा की गति 60-80 किमी/घंटा से 90 किमी/घंटा तक) के साथ बिजली कड़कने और मध्यम से भारी बारिश/ओलावृष्टि की बहुत संभावना है।",
         "rss_published": "Sat, 06 Jun 2026 11:34:39 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780745403232013",
-        "issuing_authority": "Uttar-Pradesh-SDMA",
-        "affected_states": [
-            "Uttar Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "RED",
-        "action_status": "TAKE ACTION",
-        "business_category": "Travel Risk",
-        "business_priority": "CRITICAL",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780745403232013"
     },
     {
         "identifier": "IN-1780745576044017_17",
@@ -2047,17 +1400,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780745576044017",
         "rss_title": "River Tista at Mekhliganj in Coochbehar district of West Bengal continues to flow in above normal flood situation at 4:00 pm today.",
         "rss_published": "Sat, 06 Jun 2026 11:34:13 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780745576044017",
-        "issuing_authority": "West-Bengal-SDMA",
-        "affected_states": [
-            "West Bengal"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780745576044017"
     },
     {
         "identifier": "IN-1780745409012018_18",
@@ -2080,21 +1423,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780745409012018",
         "rss_title": "अगले 3 घंटों में बस्तर, दंतेवाड़ा और सुकमा के कुछ इलाकों में बिजली गिरने, तेज हवाओं और बारिश के साथ भीषण आंधी आने की संभावना है। राजस्व एवं आपदा प्रबंधन विभाग",
         "rss_published": "Sat, 06 Jun 2026 11:33:10 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780745409012018",
-        "issuing_authority": "Chhattisgarh-SDMA",
-        "affected_states": [
-            "Chhattisgarh"
-        ],
-        "affected_districts": [
-            "Bastar",
-            "Dantewada",
-            "Sukma"
-        ],
-        "dashboard_severity": "RED",
-        "action_status": "TAKE ACTION",
-        "business_category": "Travel Risk",
-        "business_priority": "CRITICAL",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780745409012018"
     },
     {
         "identifier": "IN-1780744962143013_13",
@@ -2117,17 +1446,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780744962143013",
         "rss_title": "अगले 3 घंटों में आपके जनपद में तेज़ आंधी-तूफ़ान (हवा की रफ़्तार 60-80 किमी/घंटा, झोंकों के साथ 90 किमी/घंटा तक) के साथ बिजली कड़कने और मध्यम से भारी बारिश या ओलावृष्टि होने की बहुत संभावना है।",
         "rss_published": "Sat, 06 Jun 2026 11:27:57 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780744962143013",
-        "issuing_authority": "Uttar-Pradesh-SDMA",
-        "affected_states": [
-            "Uttar Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "RED",
-        "action_status": "TAKE ACTION",
-        "business_category": "Travel Risk",
-        "business_priority": "CRITICAL",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780744962143013"
     },
     {
         "identifier": "IN-1780744848844008_8",
@@ -2150,17 +1469,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780744848844008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 11:24:17 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780744848844008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780744848844008"
     },
     {
         "identifier": "IN-1780744639799008_8",
@@ -2183,17 +1492,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780744639799008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 11:18:02 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780744639799008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780744639799008"
     },
     {
         "identifier": "IN-1780744275012013_13",
@@ -2216,17 +1515,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780744275012013",
         "rss_title": "अगले 3 घंटों में सोनभद्र में कुछ जगहों पर बिजली चमकने और हल्की से मध्यम बारिश के साथ मध्यम दर्जे की आंधी (हवा की गति 40-60 किमी/घंटा, झोंकों के साथ 70 किमी/घंटा तक) आने की बहुत संभावना है।",
         "rss_published": "Sat, 06 Jun 2026 11:14:37 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780744275012013",
-        "issuing_authority": "Uttar-Pradesh-SDMA",
-        "affected_states": [
-            "Uttar Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780744275012013"
     },
     {
         "identifier": "IN-1780744286056012_12",
@@ -2249,17 +1538,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780744286056012",
         "rss_title": "ଭାରତ ପାଣିପାଗ ବିଭାଗର ତଥ୍ୟ ଅନୁଯାୟୀ, ଆପଣଙ୍କ ଅଞ୍ଚଳରେ ବଜ୍ରପାତ ସହିତ ବର୍ଷା ଓ ଘୁର୍ଣ୍ଣିଝଡ଼ ହେବାର ସମ୍ଭାବନା ଅଛି । ଏଥିପ୍ରତି ସତର୍କ ରହିବାକୁ ଅନୁରୋଧ । SRC, Odisha",
         "rss_published": "Sat, 06 Jun 2026 11:12:44 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780744286056012",
-        "issuing_authority": "Odisha-SDMA",
-        "affected_states": [
-            "Odisha"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "HIGH",
-        "recommended_action": "Continue monitoring."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780744286056012"
     },
     {
         "identifier": "IN-1780744160782013_13",
@@ -2282,17 +1561,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780744160782013",
         "rss_title": "अगले 3 घंटों में बलिया में कुछ जगहों पर बिजली चमकने और हल्की से मध्यम बारिश के साथ मध्यम दर्जे की आंधी (हवा की गति 40-60 किमी/घंटा, झोंकों के साथ 70 किमी/घंटा तक) आने की बहुत संभावना है।",
         "rss_published": "Sat, 06 Jun 2026 11:11:03 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780744160782013",
-        "issuing_authority": "Uttar-Pradesh-SDMA",
-        "affected_states": [
-            "Uttar Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780744160782013"
     },
     {
         "identifier": "IN-1780743116388006_6",
@@ -2315,17 +1584,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780743116388006",
         "rss_title": "അടുത്ത 3 മണിക്കൂറിൽ കേരളത്തിലെ MLP,KZD,WYD, KNR, KSD ജില്ലകളിൽ ഒറ്റപ്പെട്ടയിടങ്ങളിൽ അതിതീവ്ര മഴയ്ക്കും മണിക്കൂറിൽ 40 kmph വരെ വേഗതയിൽ ശക്തമായ കാറ്റിനും സാധ്യത. 04.30 PM; 06/06/2026; IMD_KSDMA",
         "rss_published": "Sat, 06 Jun 2026 11:09:41 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780743116388006",
-        "issuing_authority": "Kerala-SDMA",
-        "affected_states": [
-            "Kerala"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Transport Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Review road and employee travel conditions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780743116388006"
     },
     {
         "identifier": "IN-1780744012451008_8",
@@ -2348,17 +1607,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780744012451008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 11:09:02 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780744012451008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780744012451008"
     },
     {
         "identifier": "IN-1780743019863019_19",
@@ -2381,17 +1630,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780743019863019",
         "rss_title": "Thunderstorm with Lightning is likely to occur at isolated places over Bagalakote, Ballari, Belagavi, Bidar, Dakshina Kannada, Dharwad, Gadag, Haveri, Kalaburagi, Shivamogga, Udupi, Uttara Kannada, Vijayanagara, Vijayapura districts in next 3 hours.Source:-IMD Bengaluru",
         "rss_published": "Sat, 06 Jun 2026 10:53:48 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780743019863019",
-        "issuing_authority": "Karnataka-SNDMC",
-        "affected_states": [
-            "Karnataka"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780743019863019"
     },
     {
         "identifier": "IN-1780743118111031_64",
@@ -2414,15 +1653,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780743118111031",
         "rss_title": "Heavy rainfall (>15mm/hr)  with gusty winds speed reaching 40 Kmph is very likely to occur at one or two  places in Malappuram, Kozhikode, Wayanad, Kannur  Kasaragod dists  and Lakshadweep Islands in next 3 hours.",
         "rss_published": "Sat, 06 Jun 2026 10:52:00 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780743118111031",
-        "issuing_authority": "IMD-Thiruvananthapuram",
-        "affected_states": [],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Transport Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Review road and employee travel conditions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780743118111031"
     },
     {
         "identifier": "IN-1780742815048028_28",
@@ -2445,17 +1676,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780742815048028",
         "rss_title": "अगले 3 घंटों में अजमेर, डीडवाना-कुचामन, गंगानगर, नागौर, राजसमंद और सलूंबर में कुछ जगहों पर हल्की आंधी-तूफान के साथ बारिश और ज़मीनी हवा चलने की संभावना है। DMRD",
         "rss_published": "Sat, 06 Jun 2026 10:49:09 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780742815048028",
-        "issuing_authority": "Rajasthan-SDMA",
-        "affected_states": [
-            "Rajasthan"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780742815048028"
     },
     {
         "identifier": "IN-1780742436062028_28",
@@ -2478,17 +1699,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780742436062028",
         "rss_title": "Thundering with Lightning,Hailstorm,Gusty winds,Thunder shower is very likely to occur at isolated places over Alwar,Baran,Bharatpur,Bikaner,Bundi,Churu,Dausa,Deeg,Dholpur,Hanumangarh,Jaipur,Jhalawar,Jhunjhunu,Karauli,Khairthal-Tijara,Kota,Kotputli-Behror,Sawai Madhopur,Sikar,Tonk,Udaipur in next 3 hours.",
         "rss_published": "Sat, 06 Jun 2026 10:46:28 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780742436062028",
-        "issuing_authority": "Rajasthan-SDMA",
-        "affected_states": [
-            "Rajasthan"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "HIGH",
-        "recommended_action": "Continue monitoring."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780742436062028"
     },
     {
         "identifier": "IN-1780742747242008_8",
@@ -2511,17 +1722,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780742747242008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 10:46:31 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780742747242008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780742747242008"
     },
     {
         "identifier": "IN-1780742415644021_21",
@@ -2544,15 +1745,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780742415644021",
         "rss_title": "अगले 3 घंटों में अलग-अलग स्थानों पर बिजली/ओलावृष्टि (हवा की गति 70 किमी प्रति घंटे तक) के साथ मध्यम गरज के साथ बारिश होने की संभावना है।",
         "rss_published": "Sat, 06 Jun 2026 10:45:02 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780742415644021",
-        "issuing_authority": "Madhya-Pradesh-SDMA",
-        "affected_states": [],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "HIGH",
-        "recommended_action": "Continue monitoring."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780742415644021"
     },
     {
         "identifier": "IN-1780742208953027_27",
@@ -2575,17 +1768,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780742208953027",
         "rss_title": "अगले 3 घंटों में रांची के कुछ अलग-अलग स्थानों पर हल्की गरज के साथ तेज हवाएं (30-40 किमी प्रति घंटे की रफ्तार से) चलने और बारिश होने की बहुत संभावना है।आपदा प्रबंधन विभाग झारखंड राँची।",
         "rss_published": "Sat, 06 Jun 2026 10:44:22 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780742208953027",
-        "issuing_authority": "Jharkhand-SDMA",
-        "affected_states": [
-            "Jharkhand"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780742208953027"
     },
     {
         "identifier": "IN-1780742135854029_29",
@@ -2608,17 +1791,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780742135854029",
         "rss_title": "पूढील 3 तासात आपल्या जिल्ह्यात विजांच्या कडकडाटासह मेघगर्जना, हलका ते मध्यम पाऊस आणि ताशी ३०-४० किमी वेगाने वाहणाऱ्या सोसाट्याच्या वाऱ्यासह पाऊस पडण्याची दाट शक्यता आहे. नागरिकांनी सतर्क राहवे",
         "rss_published": "Sat, 06 Jun 2026 10:42:58 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780742135854029",
-        "issuing_authority": "Maharashtra-SDMA",
-        "affected_states": [
-            "Maharashtra"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780742135854029"
     },
     {
         "identifier": "IN-1780742416516021_21",
@@ -2641,15 +1814,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780742416516021",
         "rss_title": "अगले 3 घंटों में अलग-अलग स्थानों पर हल्की आंधी (50 किमी प्रति घंटे तक हवा) चलने की संभावना है।",
         "rss_published": "Sat, 06 Jun 2026 10:42:55 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780742416516021",
-        "issuing_authority": "Madhya-Pradesh-SDMA",
-        "affected_states": [],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780742416516021"
     },
     {
         "identifier": "IN-1780741569001027_27",
@@ -2672,17 +1837,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780741569001027",
         "rss_title": "अगले 3 घंटों में बोकारो, धनबाद, गिरिडीह, खुंटी, कोडरमा और सिमडेगा के कुछ अलग-अलग स्थानों पर हल्की गरज के साथ तेज हवाएं (30-40 किमी प्रति घंटे की रफ्तार से) चलने, बारिश होने की बहुत संभावना है।",
         "rss_published": "Sat, 06 Jun 2026 10:42:39 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780741569001027",
-        "issuing_authority": "Jharkhand-SDMA",
-        "affected_states": [
-            "Jharkhand"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780741569001027"
     },
     {
         "identifier": "IN-1780739142246027_27",
@@ -2705,21 +1860,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780739142246027",
         "rss_title": "चतरा, हजारीबाग और रामगढ़ के कुछ इलाकों में अगले 3 घंटों में हल्की आंधी, तेज हवाएं (30-40 किमी प्रति घंटे की रफ्तार से) और बारिश होने की प्रबल संभावना है।",
         "rss_published": "Sat, 06 Jun 2026 10:40:43 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780739142246027",
-        "issuing_authority": "Jharkhand-SDMA",
-        "affected_states": [
-            "Jharkhand"
-        ],
-        "affected_districts": [
-            "Chatra",
-            "Hazaribagh",
-            "Ramgarh"
-        ],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780739142246027"
     },
     {
         "identifier": "IN-1780742139053029_29",
@@ -2742,20 +1883,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780742139053029",
         "rss_title": "आपल्या जिल्ह्यात काही ठिकाणी विजांच्या कडकडाटासह मेघगर्जना, हलक्या पावसाच्या सरी व ताशी ३०-४० किमी वेगाने वाहणाऱ्या सोसाट्याच्या वाऱ्यासह पाऊस पडण्याची दाट शक्यता आहे. मंत्रालय. मुंबई",
         "rss_published": "Sat, 06 Jun 2026 10:40:42 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780742139053029",
-        "issuing_authority": "Maharashtra-SDMA",
-        "affected_states": [
-            "Maharashtra"
-        ],
-        "affected_districts": [
-            "Pune",
-            "Satara"
-        ],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780742139053029"
     },
     {
         "identifier": "IN-1780742321051017_17",
@@ -2778,17 +1906,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780742321051017",
         "rss_title": "Moderate Thunderstorm  lightning accompanied with light to moderate rain and gusty wind with speed 40-50 kmph. very likely to affect over some parts of Jhargram, West Midnapore, East Midnapore districts during next 2-3 hours from 16:05, 06-06-2026.",
         "rss_published": "Sat, 06 Jun 2026 10:39:45 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780742321051017",
-        "issuing_authority": "West-Bengal-SDMA",
-        "affected_states": [
-            "West Bengal"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780742321051017"
     },
     {
         "identifier": "IN-1780741519303013_13",
@@ -2811,17 +1929,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780741519303013",
         "rss_title": "अगले 3 घंटों में आपके जनपद में कुछ जगहों पर तेज़ आंधी-तूफ़ान (हवा की रफ़्तार 60-80 किमी/घंटा से 90 किमी/घंटा तक) के साथ बिजली कड़कने और मध्यम से भारी बारिश/ओले गिरने की संभावना है।",
         "rss_published": "Sat, 06 Jun 2026 10:28:52 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780741519303013",
-        "issuing_authority": "Uttar-Pradesh-SDMA",
-        "affected_states": [
-            "Uttar Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "RED",
-        "action_status": "TAKE ACTION",
-        "business_category": "Travel Risk",
-        "business_priority": "CRITICAL",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780741519303013"
     },
     {
         "identifier": "IN-1780741618182008_8",
@@ -2844,17 +1952,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780741618182008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 10:27:37 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780741618182008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780741618182008"
     },
     {
         "identifier": "IN-1780740995254008_8",
@@ -2877,17 +1975,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780740995254008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 10:17:46 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780740995254008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780740995254008"
     },
     {
         "identifier": "IN-1780740729815013_13",
@@ -2910,17 +1998,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780740729815013",
         "rss_title": "अगले 3 घंटों में आपके जनपद में कुछ जगहों पर तेज़ आंधी-तूफ़ान (हवा की रफ़्तार 60-80 किमी/घंटा से 90 किमी/घंटा तक) के साथ बिजली कड़कने और मध्यम से भारी बारिश या ओलावृष्टि होने की संभावना है।",
         "rss_published": "Sat, 06 Jun 2026 10:14:22 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780740729815013",
-        "issuing_authority": "Uttar-Pradesh-SDMA",
-        "affected_states": [
-            "Uttar Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "RED",
-        "action_status": "TAKE ACTION",
-        "business_category": "Travel Risk",
-        "business_priority": "CRITICAL",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780740729815013"
     },
     {
         "identifier": "IN-1780740702596008_8",
@@ -2943,17 +2021,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780740702596008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 10:12:29 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780740702596008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780740702596008"
     },
     {
         "identifier": "IN-1780740454789013_13",
@@ -2976,17 +2044,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780740454789013",
         "rss_title": "अगले 3 घंटों में आपके जनपद में कुछ जगहों पर तेज़ आंधी-तूफ़ान (हवा की रफ़्तार 60-80 किमी/घंटा से 90 किमी/घंटा तक) के साथ बिजली कड़कने और मध्यम से भारी बारिश/ओलावृष्टि होने की संभावना है।",
         "rss_published": "Sat, 06 Jun 2026 10:10:16 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780740454789013",
-        "issuing_authority": "Uttar-Pradesh-SDMA",
-        "affected_states": [
-            "Uttar Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "RED",
-        "action_status": "TAKE ACTION",
-        "business_category": "Travel Risk",
-        "business_priority": "CRITICAL",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780740454789013"
     },
     {
         "identifier": "IN-1780739045083029_29",
@@ -3009,17 +2067,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780739045083029",
         "rss_title": "पुढील 3 तासात आपल्या जिल्ह्यात विजांच्या कडकडाटासह मेघगर्जना, हलका ते मध्यम पाऊस आणि ताशी ३०-४० किमी वेगाने वाहणाऱ्या सोसाट्याच्या वाऱ्यासह पाऊस पडण्याची दाट शक्यता आहे. नागरिकांनी सतर्क राहवे",
         "rss_published": "Sat, 06 Jun 2026 10:04:37 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780739045083029",
-        "issuing_authority": "Maharashtra-SDMA",
-        "affected_states": [
-            "Maharashtra"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780739045083029"
     },
     {
         "identifier": "IN-1780740147483008_8",
@@ -3042,17 +2090,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780740147483008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 10:03:15 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780740147483008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780740147483008"
     },
     {
         "identifier": "IN-1780739986706008_8",
@@ -3075,17 +2113,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780739986706008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 10:03:14 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780739986706008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780739986706008"
     },
     {
         "identifier": "IN-1780739466994008_8",
@@ -3108,17 +2136,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780739466994008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 09:55:53 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780739466994008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Travel Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780739466994008"
     },
     {
         "identifier": "IN-1780739668132008_8",
@@ -3141,17 +2159,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780739668132008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 09:55:24 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780739668132008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780739668132008"
     },
     {
         "identifier": "IN-1780739330843012_12",
@@ -3174,20 +2182,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780739330843012",
         "rss_title": "ଭାରତ ପାଣିପାଗ ବିଭାଗର ତଥ୍ୟ ଅନୁଯାୟୀ, ଆପଣଙ୍କ ଅଞ୍ଚଳରେ ବଜ୍ରପାତ ସହିତ ବର୍ଷା ଓ ଘୁର୍ଣ୍ଣିଝଡ଼ ହେବାର ସମ୍ଭାବନା ଅଛି । ଏଥିପ୍ରତି ସତର୍କ ରହିବାକୁ ଅନୁରୋଧ । SRC, Odisha",
         "rss_published": "Sat, 06 Jun 2026 09:50:30 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780739330843012",
-        "issuing_authority": "Odisha-SDMA",
-        "affected_states": [
-            "Odisha"
-        ],
-        "affected_districts": [
-            "Cuttack",
-            "Khordha"
-        ],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "General Weather",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Continue monitoring."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780739330843012"
     },
     {
         "identifier": "IN-1780739261161008_8",
@@ -3210,17 +2205,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780739261161008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 09:48:27 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780739261161008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780739261161008"
     },
     {
         "identifier": "IN-1780739098867008_8",
@@ -3243,17 +2228,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780739098867008",
         "rss_title": "మీ ప్రాంతంలో పిడుగులు పడే అవకాశం ఉంది.ఉరుములు మెరుపులతో కూడిన వర్షం పడేప్పుడు చెట్లు,టవర్స్,పోల్స్,పొలాలు,బహిరంగ ప్రదేశాల్లో ఉండరాదు.సురక్షితమైన భవనాల్లో ఆశ్రయం పొందండి-ఆంధ్రప్రదేశ్ ప్రభుత్వం.",
         "rss_published": "Sat, 06 Jun 2026 09:45:47 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780739098867008",
-        "issuing_authority": "Andhra-Pradesh-SDMA",
-        "affected_states": [
-            "Andhra Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "HIGH",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780739098867008"
     },
     {
         "identifier": "IN-1780737719952009_9",
@@ -3276,17 +2251,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780737719952009",
         "rss_title": "अगले 02 घंटो मे देहरादून , टिहरी  तथा  उत्तरकाशी जनपदों मे कही-कहीं गर्जन के साथ आकाशीय बिजली चमकने एवं झोंकेदार हवाएं (30-40 किमी. प्रति घंटा) चलने की संभावना है |",
         "rss_published": "Sat, 06 Jun 2026 09:37:08 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780737719952009",
-        "issuing_authority": "Uttarakhand-SDMA",
-        "affected_states": [
-            "Uttarakhand"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "WATCH",
-        "action_status": "MONITOR",
-        "business_category": "Employee Safety",
-        "business_priority": "MEDIUM",
-        "recommended_action": "Advise employees to avoid open areas."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780737719952009"
     },
     {
         "identifier": "IN-1780737665051013_13",
@@ -3309,17 +2274,7 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780737665051013",
         "rss_title": "अगले 3 घंटों में आपके जनपद मेंं कुछ स्थानों पर बिजली गिरने और मध्यम से तीव्र बारिश/ओलावृष्टि के साथ गंभीर तूफान (हवा की गति 60-80 किमी प्रति घंटे से 90 किमी प्रति घंटे तक) होने की संभावना है।",
         "rss_published": "Sat, 06 Jun 2026 09:36:22 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780737665051013",
-        "issuing_authority": "Uttar-Pradesh-SDMA",
-        "affected_states": [
-            "Uttar Pradesh"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "RED",
-        "action_status": "TAKE ACTION",
-        "business_category": "Travel Risk",
-        "business_priority": "CRITICAL",
-        "recommended_action": "Monitor transport disruptions."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780737665051013"
     },
     {
         "identifier": "IN-1780737719072009_9",
@@ -3342,16 +2297,6 @@
         "polygon_url": "https://sachet.ndma.gov.in/cap_public_website/FetchPolygonXMLFile?identifier=1780737719072009",
         "rss_title": "अगले 02 घंटो के दौरान पर्वतीय जनपदों मे  कही -कहीं गर्जन के साथ आकाशीय बिजली चमकने / ओलावृष्टि / वर्षा के तीव्र दौर एवं झोंकेदार हवाएं (40-50 किमी. प्रति घंटा) चलने की संभावना है |",
         "rss_published": "Sat, 06 Jun 2026 09:35:51 GMT",
-        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780737719072009",
-        "issuing_authority": "Uttarakhand-SDMA",
-        "affected_states": [
-            "Uttarakhand"
-        ],
-        "affected_districts": [],
-        "dashboard_severity": "ORANGE",
-        "action_status": "MONITOR",
-        "business_category": "Property Risk",
-        "business_priority": "HIGH",
-        "recommended_action": "Review facility preparedness."
+        "rss_link": "https://sachet.ndma.gov.in/cap_public_website/FetchXMLFile?identifier=1780737719072009"
     }
 ]

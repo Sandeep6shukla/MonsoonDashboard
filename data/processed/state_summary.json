@@ -1,37 +1,192 @@
 [
     {
-        "state": "Unknown",
-        "government_alerts": 93,
-        "severity": "RED",
-        "primary_risk": "Very Heavy Rain is very likely to occur at isolated places over Ernakulam, Idukki, Kottayam, Palakkad, Pathanamthitta, Thrissur, Lakshadweep District in next 24 hours.",
-        "action": "SEND ALERT"
-    },
-    {
-        "state": "West Bengal",
-        "government_alerts": 1,
-        "severity": "RED",
-        "primary_risk": "River Tista at Mekhliganj in Coochbehar district of West Bengal continues to flow in above normal flood situation at 10:00 am today.",
-        "action": "SEND ALERT"
-    },
-    {
         "state": "Andhra Pradesh",
-        "government_alerts": 1,
-        "severity": "ORANGE",
-        "primary_risk": "There is a possibility of lightning in your area. During thunderstorms, avoid trees, towers, poles, fields, and open spaces. Seek shelter in safe buildings - Andhra Pradesh Government.",
-        "action": "CHECK LOCAL SPOC"
+        "highest_severity": "RED",
+        "business_priority": "CRITICAL",
+        "alert_count": 42,
+        "business_categories": [
+            "Employee Safety",
+            "General Weather",
+            "Travel Risk"
+        ],
+        "recommended_actions": [
+            "Advise employees to avoid open areas.",
+            "Continue monitoring.",
+            "Monitor transport disruptions."
+        ]
+    },
+    {
+        "state": "Chhattisgarh",
+        "highest_severity": "RED",
+        "business_priority": "CRITICAL",
+        "alert_count": 5,
+        "business_categories": [
+            "Employee Safety",
+            "Travel Risk"
+        ],
+        "recommended_actions": [
+            "Advise employees to avoid open areas.",
+            "Monitor transport disruptions."
+        ]
+    },
+    {
+        "state": "Uttar Pradesh",
+        "highest_severity": "RED",
+        "business_priority": "CRITICAL",
+        "alert_count": 10,
+        "business_categories": [
+            "Travel Risk"
+        ],
+        "recommended_actions": [
+            "Monitor transport disruptions."
+        ]
+    },
+    {
+        "state": "Bihar",
+        "highest_severity": "ORANGE",
+        "business_priority": "HIGH",
+        "alert_count": 2,
+        "business_categories": [
+            "Employee Safety",
+            "Travel Risk"
+        ],
+        "recommended_actions": [
+            "Advise employees to avoid open areas.",
+            "Monitor transport disruptions."
+        ]
+    },
+    {
+        "state": "Karnataka",
+        "highest_severity": "ORANGE",
+        "business_priority": "HIGH",
+        "alert_count": 3,
+        "business_categories": [
+            "Employee Safety",
+            "Travel Risk"
+        ],
+        "recommended_actions": [
+            "Advise employees to avoid open areas.",
+            "Monitor transport disruptions."
+        ]
+    },
+    {
+        "state": "Kerala",
+        "highest_severity": "ORANGE",
+        "business_priority": "HIGH",
+        "alert_count": 1,
+        "business_categories": [
+            "Transport Risk"
+        ],
+        "recommended_actions": [
+            "Review road and employee travel conditions."
+        ]
+    },
+    {
+        "state": "Maharashtra",
+        "highest_severity": "ORANGE",
+        "business_priority": "HIGH",
+        "alert_count": 7,
+        "business_categories": [
+            "General Weather",
+            "Property Risk"
+        ],
+        "recommended_actions": [
+            "Continue monitoring.",
+            "Review facility preparedness."
+        ]
     },
     {
         "state": "Odisha",
-        "government_alerts": 4,
-        "severity": "WATCH",
-        "primary_risk": "Thunderstorm is Very Likely to occur over Balangir district of Odisha. Please follow SDMA guidelines.",
-        "action": "MONITOR"
+        "highest_severity": "ORANGE",
+        "business_priority": "HIGH",
+        "alert_count": 3,
+        "business_categories": [
+            "General Weather",
+            "Travel Risk"
+        ],
+        "recommended_actions": [
+            "Continue monitoring.",
+            "Monitor transport disruptions."
+        ]
     },
     {
-        "state": "Assam",
-        "government_alerts": 1,
-        "severity": "INFO",
-        "primary_risk": "",
-        "action": "NO ACTION"
+        "state": "Rajasthan",
+        "highest_severity": "ORANGE",
+        "business_priority": "HIGH",
+        "alert_count": 5,
+        "business_categories": [
+            "General Weather",
+            "Travel Risk"
+        ],
+        "recommended_actions": [
+            "Continue monitoring.",
+            "Monitor transport disruptions."
+        ]
+    },
+    {
+        "state": "Uttarakhand",
+        "highest_severity": "ORANGE",
+        "business_priority": "HIGH",
+        "alert_count": 2,
+        "business_categories": [
+            "Employee Safety",
+            "Property Risk"
+        ],
+        "recommended_actions": [
+            "Advise employees to avoid open areas.",
+            "Review facility preparedness."
+        ]
+    },
+    {
+        "state": "West Bengal",
+        "highest_severity": "ORANGE",
+        "business_priority": "HIGH",
+        "alert_count": 3,
+        "business_categories": [
+            "General Weather",
+            "Travel Risk"
+        ],
+        "recommended_actions": [
+            "Continue monitoring.",
+            "Monitor transport disruptions."
+        ]
+    },
+    {
+        "state": "Goa",
+        "highest_severity": "WATCH",
+        "business_priority": "MEDIUM",
+        "alert_count": 2,
+        "business_categories": [
+            "General Weather",
+            "Travel Risk"
+        ],
+        "recommended_actions": [
+            "Continue monitoring.",
+            "Monitor transport disruptions."
+        ]
+    },
+    {
+        "state": "Jharkhand",
+        "highest_severity": "WATCH",
+        "business_priority": "MEDIUM",
+        "alert_count": 5,
+        "business_categories": [
+            "Travel Risk"
+        ],
+        "recommended_actions": [
+            "Monitor transport disruptions."
+        ]
+    },
+    {
+        "state": "Tamil Nadu",
+        "highest_severity": "WATCH",
+        "business_priority": "MEDIUM",
+        "alert_count": 1,
+        "business_categories": [
+            "Transport Risk"
+        ],
+        "recommended_actions": [
+            "Review road and employee travel conditions."
+        ]
     }
 ]

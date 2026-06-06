@@ -3,7 +3,7 @@
         "state": "Andhra Pradesh",
         "highest_severity": "RED",
         "business_priority": "CRITICAL",
-        "alert_count": 42,
+        "alert_count": 39,
         "business_categories": [
             "Employee Safety",
             "General Weather",
@@ -33,7 +33,7 @@
         "state": "Uttar Pradesh",
         "highest_severity": "RED",
         "business_priority": "CRITICAL",
-        "alert_count": 10,
+        "alert_count": 8,
         "business_categories": [
             "Travel Risk"
         ],
@@ -59,7 +59,7 @@
         "state": "Karnataka",
         "highest_severity": "ORANGE",
         "business_priority": "HIGH",
-        "alert_count": 3,
+        "alert_count": 4,
         "business_categories": [
             "Employee Safety",
             "Travel Risk"
@@ -73,11 +73,13 @@
         "state": "Kerala",
         "highest_severity": "ORANGE",
         "business_priority": "HIGH",
-        "alert_count": 1,
+        "alert_count": 2,
         "business_categories": [
+            "General Weather",
             "Transport Risk"
         ],
         "recommended_actions": [
+            "Continue monitoring.",
             "Review road and employee travel conditions."
         ]
     },
@@ -85,7 +87,7 @@
         "state": "Maharashtra",
         "highest_severity": "ORANGE",
         "business_priority": "HIGH",
-        "alert_count": 7,
+        "alert_count": 8,
         "business_categories": [
             "General Weather",
             "Property Risk"
@@ -124,20 +126,6 @@
         ]
     },
     {
-        "state": "Uttarakhand",
-        "highest_severity": "ORANGE",
-        "business_priority": "HIGH",
-        "alert_count": 2,
-        "business_categories": [
-            "Employee Safety",
-            "Property Risk"
-        ],
-        "recommended_actions": [
-            "Advise employees to avoid open areas.",
-            "Review facility preparedness."
-        ]
-    },
-    {
         "state": "West Bengal",
         "highest_severity": "ORANGE",
         "business_priority": "HIGH",
@@ -155,7 +143,7 @@
         "state": "Goa",
         "highest_severity": "WATCH",
         "business_priority": "MEDIUM",
-        "alert_count": 2,
+        "alert_count": 3,
         "business_categories": [
             "General Weather",
             "Travel Risk"

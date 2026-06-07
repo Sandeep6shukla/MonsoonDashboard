@@ -1,53 +1,90 @@
 import json
-from datetime import datetime
 
-EXECUTIVE_FILE = "data/processed/executive_summary.json"
-STATE_FILE = "data/processed/state_summary.json"
-
+SUMMARY_FILE = "data/processed/weather_dashboard_summary.json"
+ALERT_FILE = "data/processed/dashboard_alerts.json"
 OUTPUT_FILE = "docs/index.html"
 
 
-STATUS_ICON = {
-    "CRITICAL": "🔴",
-    "ELEVATED": "🟠",
-    "WATCH": "🟡",
-    "NORMAL": "🟢"
-}
+def build_card(alert, color):
 
-SEVERITY_ICON = {
-    "RED": "🔴",
-    "ORANGE": "🟠",
-    "WATCH": "🟡",
-    "INFO": "🟢"
-}
+    areas = alert.get(
+        "affected_areas",
+        []
+    )
+
+    if areas:
+        areas = " • ".join(areas)
+    else:
+        areas = alert.get(
+            "area_description",
+            "Not Available"
+        )
+
+    border = "red"
+
+    if color == "ORANGE":
+        border = "orange"
+
+    return f"""
+
+<div class="card" style="border-left:10px solid {border};">
+
+<h2>{alert['state']}</h2>
+
+<h3>⚠️ {alert['event']}</h3>
+
+<p>
+<b>Affected Areas</b><br>
+{areas}
+</p>
+
+<p>
+<b>Official Alert</b><br>
+{alert['headline']}
+</p>
+
+<p>
+<b>Official Advisory</b><br>
+{alert['instruction']}
+</p>
+
+<p>
+<b>Valid Until</b><br>
+{alert.get('valid_until',alert.get('expires',""))}
+</p>
+
+<p>
+<b>Active Alerts</b><br>
+{alert['alert_count']}
+</p>
+
+</div>
+
+"""
 
 
 def generate_dashboard():
 
     print()
-    print("=" * 50)
+    print("=" * 60)
     print("GENERATING DASHBOARD")
-    print("=" * 50)
+    print("=" * 60)
 
     with open(
-        EXECUTIVE_FILE,
+        SUMMARY_FILE,
         encoding="utf-8"
     ) as f:
 
-        executive = json.load(f)
+        summary = json.load(f)
 
     with open(
-        STATE_FILE,
+        ALERT_FILE,
         encoding="utf-8"
     ) as f:
 
-        states = json.load(f)
+        alerts = json.load(f)
 
-    timestamp = datetime.now().strftime(
-        "%d %b %Y %H:%M"
-    )
-
-    html = f"""
+    html = """
 
 <html>
 
@@ -55,45 +92,65 @@ def generate_dashboard():
 
 <title>
 
-India Business Continuity Dashboard
+India Weather Intelligence
 
 </title>
 
 <style>
 
-body{{
-font-family:Arial;
-margin:30px;
-background:#f4f4f4;
-}}
+body{
 
-.card{{
+font-family:Arial,Helvetica,sans-serif;
+
+margin:40px;
+
+background:#f5f5f5;
+
+}
+
+h1{
+
+color:#003366;
+
+}
+
+.summary{
+
+background:#d9edf7;
+
+padding:20px;
+
+border-radius:10px;
+
+margin-bottom:30px;
+
+}
+
+.card{
+
 background:white;
-padding:15px;
-margin:10px;
-border-radius:8px;
-box-shadow:2px 2px 5px #ccc;
-}}
 
-table{{
-border-collapse:collapse;
-width:100%;
-background:white;
-}}
+padding:20px;
 
-th,td{{
-border:1px solid #ddd;
-padding:8px;
-text-align:left;
-}}
+margin-top:20px;
 
-th{{
-background:#eee;
-}}
+margin-bottom:20px;
 
-ul{{
-margin-top:5px;
-}}
+border-radius:10px;
+
+box-shadow:0px 0px 5px #cccccc;
+
+}
+
+.footer{
+
+margin-top:50px;
+
+font-size:14px;
+
+color:gray;
+
+}
 
 </style>
 
@@ -101,336 +158,153 @@ margin-top:5px;
 
 <body>
 
-<div class="card">
-
 <h1>
 
-🇮🇳 INDIA BUSINESS CONTINUITY
+🇮🇳 India Weather Intelligence
 
 </h1>
 
 <h3>
 
-National Weather Intelligence Dashboard
+Business Continuity Platform
 
 </h3>
-
-<p>
-
-Assessment Time :
-{timestamp} IST
-
-</p>
-
-</div>
-
-<div class="card">
-
-<h2>
-
-{STATUS_ICON.get(
-executive["overall_status"],
-"⚪"
-)}
-
-Overall Status :
-
-{executive["overall_status"]}
-
-</h2>
-
-<p>
-
-{executive["todays_assessment"]}
-
-</p>
-
-</div>
-
-<div class="card">
-
-<h2>
-
-🔴 Critical States
-
-</h2>
-
-<ul>
-
-"""
-
-    for state in executive["critical_states"]:
-
-        html += f"<li>{state}</li>"
-
-    html += "</ul>"
-
-    html += """
-
-<h2>
-
-🟠 High Risk States
-
-</h2>
-
-<ul>
-
-"""
-
-    for state in executive["high_risk_states"]:
-
-        html += f"<li>{state}</li>"
-
-    html += "</ul>"
-
-    html += """
-
-<h2>
-
-🟡 Watch States
-
-</h2>
-
-<ul>
-
-"""
-
-    for state in executive["watch_states"]:
-
-        html += f"<li>{state}</li>"
-
-    html += """
-
-</ul>
-
-</div>
-
-"""
-
-    html += """
-
-<div class="card">
-
-<h2>
-
-Top Business Risks
-
-</h2>
-
-<ul>
-
-"""
-
-    for risk in executive["top_business_risks"]:
-
-        if risk in [
-            "General Weather",
-            "Weather Watch"
-        ]:
-            continue
-
-        html += f"<li>{risk}</li>"
-
-    html += """
-
-</ul>
-
-</div>
-
-"""
-
-    html += """
-
-<div class="card">
-
-<h2>
-
-Recommended Actions
-
-</h2>
-
-<ul>
-
-"""
-
-    for action in executive["recommended_actions"]:
-
-        if action == "Continue monitoring.":
-            continue
-
-        html += f"<li>{action}</li>"
-
-    html += """
-
-</ul>
-
-</div>
-
-"""
-
-    html += """
-
-<div class="card">
-
-<h2>
-
-State Risk Matrix
-
-</h2>
-
-<table>
-
-<tr>
-
-<th>State</th>
-
-<th>Severity</th>
-
-<th>Priority</th>
-
-<th>Alerts</th>
-
-<th>Business Risks</th>
-
-</tr>
-
-"""
-
-    for state in states:
-
-        html += f"""
-
-<tr>
-
-<td>
-
-{state["state"]}
-
-</td>
-
-<td>
-
-{SEVERITY_ICON.get(
-state["highest_severity"],
-"⚪"
-)}
-
-{state["highest_severity"]}
-
-</td>
-
-<td>
-
-{state["business_priority"]}
-
-</td>
-
-<td>
-
-{state["alert_count"]}
-
-</td>
-
-<td>
-
-{", ".join(
-state["business_categories"]
-)}
-
-</td>
-
-</tr>
-
-"""
-
-    html += """
-
-</table>
-
-</div>
-
-"""
-
-    html += """
-
-<div class="card">
-
-<h2>
-
-Detailed State Summary
-
-</h2>
-
-"""
-
-    for state in states:
-
-        html += f"""
 
 <hr>
 
-<h3>
+"""
 
-{SEVERITY_ICON.get(
-state["highest_severity"],
-"⚪"
-)}
+    html += f"""
 
-{state["state"]}
+<div class="summary">
 
-</h3>
+<h2>
 
-<p>
+Today's National Weather Situation
 
-Highest Severity :
-
-{state["highest_severity"]}
-
-</p>
+</h2>
 
 <p>
 
-Business Priority :
-
-{state["business_priority"]}
+{summary['national_summary']}
 
 </p>
 
-<p>
-
-Active Alerts :
-
-{state["alert_count"]}
-
-</p>
-
-<p>
-
-Business Risks :
-
-{", ".join(
-state["business_categories"]
-)}
-
-</p>
-
-<p>
-
-Recommended Actions :
-
-</p>
-
-<ul>
+</div>
 
 """
 
-        for action in state["recommended_actions"]:
+    html += """
 
-            html += f"<li>{action}</li>"
+<h2>
 
-        html += "</ul>"
+🔴 RED ALERTS
+
+</h2>
+
+"""
+
+    red_found = False
+
+    for alert in alerts:
+
+        if alert["severity"] == "RED":
+
+            red_found = True
+
+            html += build_card(
+                alert,
+                "RED"
+            )
+
+    if not red_found:
+
+        html += """
+
+<p>
+
+No active RED alerts.
+
+</p>
+
+"""
 
     html += """
+
+<hr>
+
+<h2>
+
+🟠 ORANGE ALERTS
+
+</h2>
+
+"""
+
+    orange_found = False
+
+    for alert in alerts:
+
+        if alert["severity"] == "ORANGE":
+
+            orange_found = True
+
+            html += build_card(
+                alert,
+                "ORANGE"
+            )
+
+    if not orange_found:
+
+        html += """
+
+<p>
+
+No active ORANGE alerts.
+
+</p>
+
+"""
+
+    html += """
+
+<hr>
+
+<div class="footer">
+
+<h3>
+
+Data Sources
+
+</h3>
+
+<ul>
+
+<li>
+
+NDMA Sachet CAP
+
+</li>
+
+<li>
+
+State Disaster Management Authorities
+
+</li>
+
+<li>
+
+India Meteorological Department (Future Integration)
+
+</li>
+
+</ul>
+
+<p>
+
+Dashboard generated automatically from official weather alerts.
+
+</p>
 
 </div>
 

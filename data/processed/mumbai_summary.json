@@ -1,0 +1,37 @@
+{
+    "weather": {
+        "status": "ADVISORY",
+        "message": "Partly cloudy sky with possibility of light rain/ thundershower in city and suburbs Temperature 24°C - 28°C.",
+        "valid_for": "24 Hours"
+    },
+    "warnings": {
+        "status": "ADVISORY",
+        "message": "Heavy Rainfall advisory active.",
+        "details": [
+            {
+                "type": "Heavy Rainfall",
+                "message": "Hot and humid condition. Possibility of light rain or thundershowers towards afternoon/evening."
+            }
+        ]
+    },
+    "high_tide": {
+        "status": "INFO",
+        "message": "Next High Tide 3.19 m at 2026-06-07 03:59:00."
+    },
+    "flooding": {
+        "status": "INFO",
+        "message": "110 official flood-prone locations under monitoring."
+    },
+    "traffic": {
+        "status": "NORMAL",
+        "message": "No active traffic diversions reported."
+    },
+    "aws": {
+        "status": "ACTIVE",
+        "message": "120 Automatic Weather Stations operational."
+    },
+    "overall_status": "ADVISORY",
+    "executive_summary": "Mumbai operational status is ADVISORY. Partly cloudy sky with possibility of light rain/ thundershower in city and suburbs Temperature 24°C - 28°C. Heavy Rainfall advisory active. No active traffic diversions reported.",
+    "business_implication": "Minor weather-related disruptions are possible. Monitor local advisories.",
+    "updated_at": "2026-06-07T20:02:00.629187"
+}

@@ -1,17 +1,17 @@
-from collectors.sachet import fetch_sachet
-from collectors.cap_collector import collect_cap
+from collectors.national.sachet import fetch_sachet
+from collectors.national.cap_collector import collect_cap
 
-from processes.normalize_geography import normalize_geography
+from processes.national.normalize_geography import normalize_geography
 
 # Existing business pipeline
-from processes.process_cap import process_cap
-from processes.aggregate_states import aggregate_states
-from processes.build_summary import build_summary
+from processes.national.process_cap import process_cap
+from processes.legacy.aggregate_states import aggregate_states
+from processes.legacy.build_summary import build_summary
 
 # New weather pipeline
-from processes.aggregate_weather import aggregate_weather
-from processes.build_dashboard_alerts import build_dashboard_alerts
-from processes.build_weather_summary import build_weather_summary
+from processes.national.aggregate_weather import aggregate_weather
+from processes.national.build_dashboard_alerts import build_dashboard_alerts
+from processes.national.build_weather_summary import build_weather_summary
 
 from dashboard.generate_dashboard import generate_dashboard
 

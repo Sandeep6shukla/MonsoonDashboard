@@ -1,0 +1,301 @@
+[
+    {
+        "severity": "RED",
+        "state": "Andhra Pradesh",
+        "event": "Heat Wave",
+        "districts": [
+            "57 Mandals"
+        ],
+        "reason": "Heat Wave is Likely to occur over 57 Mandals. Please follow SDMA guidelines.",
+        "advisory": "Please follow SDMA guidelines."
+    },
+    {
+        "severity": "RED",
+        "state": "Chhattisgarh",
+        "event": "Severe Thunderstorms with surface wind",
+        "districts": [
+            "Bastar",
+            "Dantewada",
+            "Sukma",
+            "Sukma Districts Of Chhattisgarh"
+        ],
+        "reason": "Severe Thunderstorms with lightning, surface wind and rain is likely to occur at isolated places over Bastar, Dantewada, Sukma in next 3 hours.",
+        "advisory": "Please follow SDMA guidelines."
+    },
+    {
+        "severity": "RED",
+        "state": "Uttar Pradesh",
+        "event": "Severe Thunderstorms with surface wind",
+        "districts": [
+            "Balrampur",
+            "Basti"
+        ],
+        "reason": "अगले 3 घंटों में आपके जनपद में कुछ जगहों पर तेज़ आंधी-तूफ़ान (हवा की गति 60-80 किमी/घंटा से 90 किमी/घंटा तक) के साथ बिजली कड़कने और मध्यम से भारी बारिश/ओलावृष्टि की बहुत संभावना है।",
+        "advisory": "Please follow SDMA guidelines."
+    },
+    {
+        "severity": "ORANGE",
+        "state": "Andhra Pradesh",
+        "event": "Lightning",
+        "districts": [
+            "10 Mandals",
+            "16 Mandals",
+            "17 Mandals",
+            "23 Mandals",
+            "6 Mandals",
+            "7 Mandals",
+            "8 Mandals",
+            "9 Mandals",
+            "Adoni-1",
+            "Adoni-2",
+            "Alur",
+            "Aspari",
+            "Bandi Atmakur",
+            "Bandi Atmakur Mandals",
+            "D.Hirehal",
+            "D.Hirehal Mandal",
+            "Duggirala Mandals",
+            "Edlapadu",
+            "Gadivemula Mandals",
+            "Gangavaram",
+            "Gummalakshmipuram Mandals",
+            "Guntakal Mandals",
+            "Halaharvi Mandal",
+            "Halaharvi Mandals",
+            "Jaladanki",
+            "Jammalamadugu",
+            "Jupadu Bungalow Mandals",
+            "Kadiri",
+            "Kanaganapalle Mandal",
+            "Kanekal Mandal",
+            "Kolimigundla Mandals",
+            "Kondapuram",
+            "Kondapuram Mandals",
+            "Kothapalli Ndl",
+            "Kowthalam",
+            "Kurnool Rural",
+            "Lingasamudram",
+            "Maddikera East Mandals",
+            "Mahanandi",
+            "Makkuva",
+            "Muddanur",
+            "Mudigubba",
+            "Mylavaram",
+            "Nandyal Rural",
+            "Narasaraopet",
+            "Pagidyala",
+            "Pamulapadu",
+            "Pamulapadu Mandals",
+            "Panyam",
+            "Pattikonda",
+            "Pattikonda Mandals",
+            "Pedanandipadu",
+            "Pedda Kadubur",
+            "Pedda Kadubur Mandals",
+            "Putlur",
+            "Ramagiri Mandals",
+            "Rayadurg",
+            "Rudravaram",
+            "Sanjamala Mandal",
+            "Sirvel Mandals",
+            "Tadpatri",
+            "Talupula",
+            "Tuggali Mandals",
+            "Vararamachandrapuram",
+            "Velgode",
+            "Velgode Mandals",
+            "Vidapanakal",
+            "Yellanur",
+            "Yerraguntla"
+        ],
+        "reason": "There is a possibility of lightning in your area. During thunderstorms, avoid trees, towers, poles, fields, and open spaces. Seek shelter in safe buildings - Andhra Pradesh Government.",
+        "advisory": "Please follow SDMA guidelines."
+    },
+    {
+        "severity": "ORANGE",
+        "state": "Andhra Pradesh",
+        "event": "Moderate Thunderstorms with surface wind",
+        "districts": [
+            "Adoni",
+            "Alur",
+            "Amadalavalasa",
+            "Atmakur",
+            "Calingapatnam",
+            "Dhone",
+            "Gooty",
+            "Guntakalkanekal",
+            "Kosigi",
+            "Kurnool",
+            "Nandyala",
+            "Narasannapeta",
+            "Pathapatnam",
+            "Pattikonda",
+            "Srikakulam",
+            "Tekkali"
+        ],
+        "reason": "Moderate Thunderstorms accompanied with Lightning, Gusty winds speed reaching 40-50 kmph and Moderate Rainfall is very likely to occur at a few places over Adoni, Alur, GuntakalKanekal, Gooty, Dhone, Nandyala, Kurnool areas of Ananthapuramu, Kurnool, Nandyal districts in next 3 hours.",
+        "advisory": "Take safe shelters, do not take shelter under trees."
+    },
+    {
+        "severity": "ORANGE",
+        "state": "Bihar",
+        "event": "Moderate Thunderstorms with surface wind",
+        "districts": [
+            "4 Districts Of Bihar"
+        ],
+        "reason": "Moderate Thunderstorms with lightening/surface wind gusting (40-50 kmph) and light to moderate rain is very likely to occur at many places over Arwal, Bhojpur, Buxar, Rohtas in next 3 hours.",
+        "advisory": "Please follow SDMA guidelines."
+    },
+    {
+        "severity": "ORANGE",
+        "state": "Bihar",
+        "event": "Thunderstorm with Lightning",
+        "districts": [
+            "Tslg"
+        ],
+        "reason": "Thunderstorm with Lightning is very likely to occur at a few places over Arwal, Gaya, Jehanabad, Nalanda, Patna, Aurangabad, Rohtas in next 3 hours.",
+        "advisory": "Please follow SDMA guidelines."
+    },
+    {
+        "severity": "ORANGE",
+        "state": "Chhattisgarh",
+        "event": "Moderate Thunderstorms with surface wind",
+        "districts": [
+            "7 Districts Of Chhattisgarh",
+            "Balrampur",
+            "Bastar",
+            "Dantewada",
+            "Gariyaband",
+            "Jashpur",
+            "Kondagaon",
+            "Mahasamund",
+            "Raigarh",
+            "Sakti",
+            "Sarangarh Bilaigarh",
+            "Sukma",
+            "Sukma Districts Of Chhattisgarh"
+        ],
+        "reason": "Moderate Thunderstorms with lightning, surface wind and rain is likely to occur at isolated places over Balrampur, Bastar, Dantewada, Gariyaband, Jashpur, Kondagaon, Mahasamund, Raigarh, Sakti, Sarangarh Bilaigarh, Sukma in next 3 hours.",
+        "advisory": "Please follow SDMA guidelines."
+    },
+    {
+        "severity": "ORANGE",
+        "state": "Karnataka",
+        "event": "Thunder shower with strong wind",
+        "districts": [
+            "6 Districts Of Karnataka"
+        ],
+        "reason": "Thunder shower with strong wind is likely to occur at isolated places over Belagavi, Gadag, Kalaburagi, Koppal, Raichur, Vijayapura districts in next 3 hours. Source :- IMD BNG",
+        "advisory": "Please follow SDMA guidelines."
+    },
+    {
+        "severity": "ORANGE",
+        "state": "Kerala",
+        "event": "Heavy Rain",
+        "districts": [
+            "5 Districts Of Kerala"
+        ],
+        "reason": "Heavy rainfall (&gt;15mm/hr)  with gusty winds speed reaching 40 Kmph is very likely to occur at one or two  places in Malappuram, Kozhikode, Wayanad, Kannur  Kasaragod dists  and Lakshadweep Islands in next 3 hours.",
+        "advisory": "Please follow SDMA guidelines."
+    },
+    {
+        "severity": "ORANGE",
+        "state": "Kerala",
+        "event": "Moderate Thunderstorms",
+        "districts": [
+            "Kozhikode",
+            "Malappuram",
+            "Malappuram Districts Of Kerala"
+        ],
+        "reason": "Thunderstorms with Moderate rainfall( 5-15mm/hr) to Heavy rainfall (&gt;15mm/hr) and  gusty winds speed reaching 40 Kmph is very likely to occur at one or two  places in Malappuram and Kozhikkode districts. is very likely to occur at most places over Kozhikode, Malappuram in next 3 hours.",
+        "advisory": "Please follow SDMA guidelines."
+    },
+    {
+        "severity": "ORANGE",
+        "state": "Maharashtra",
+        "event": "Thunderstorms with Hail",
+        "districts": [
+            "Jalgaon",
+            "Parbhani",
+            "Parbhani Districts Of Maharashtra"
+        ],
+        "reason": "आपल्या जिल्ह्यात काही ठिकाणी विजांच्या कडकडाटासह मेघगर्जना व हलक्या ते मध्यम पावसाच्या सरींची व ताशी ३०-४० किमी वेगाने सोसाट्याचा वारा वाहण्याची तसेच काही ठिकाणी गारपीट होण्याचीही शक्यता आहे.",
+        "advisory": "Please follow SDMA guidelines."
+    },
+    {
+        "severity": "ORANGE",
+        "state": "Odisha",
+        "event": "Moderate Thunderstorms with surface wind",
+        "districts": [
+            "Ganjam",
+            "Keonjhar",
+            "Mayurbhanj",
+            "Puri Etc"
+        ],
+        "reason": "ଭାରତ ପାଣିପାଗ ବିଭାଗର ତଥ୍ୟ ଅନୁଯାୟୀ, ଆଗାମୀ ତିନି ଘଣ୍ଟା ମଧ୍ୟରେ ଆପଣଙ୍କ ଅଞ୍ଚଳରେ ବଜ୍ରପାତ ସହିତ ବର୍ଷା ଓ ଘୁର୍ଣ୍ଣିଝଡ଼ ହେବାର ସମ୍ଭାବନା ଅଛି । ଏଥିପ୍ରତି ସତର୍କ ରହିବାକୁ ଅନୁରୋଧ । SRC, Odisha",
+        "advisory": "Please follow SDMA guidelines."
+    },
+    {
+        "severity": "ORANGE",
+        "state": "Odisha",
+        "event": "Thunderstorm",
+        "districts": [
+            "9 Districts Of Odisha"
+        ],
+        "reason": "Thunderstorm is Very Likely to occur over 9 districts of Odisha. Please follow SDMA guidelines.",
+        "advisory": "Please follow SDMA guidelines."
+    },
+    {
+        "severity": "ORANGE",
+        "state": "Rajasthan",
+        "event": "Hailstorm, Dust Raising winds, and Lightning",
+        "districts": [
+            "11 Districts Of Rajasthan"
+        ],
+        "reason": "Thundering with Hailstorm, Dust Raising winds, and Lightning with light to moderate rain is very likely to occur at isolated places over Ajmer, Beawar, Bhilwara, Bikaner, Bundi, Dausa, Didwana-Kuchaman, Jaipur, Nagaur, Sawai Madhopur, Tonk in next 3 hours.",
+        "advisory": "Please follow SDMA guidelines."
+    },
+    {
+        "severity": "ORANGE",
+        "state": "Rajasthan",
+        "event": "Hailstorm, Gusty winds, and Thunder shower",
+        "districts": [
+            "22 Districts Of Rajasthan"
+        ],
+        "reason": "Thundering,Hailstorm,Gusty winds, rain is very likely to occur at isolated places over Alwar,Baran,Bharatpur,Bikaner,Chittorgarh,Churu,Dausa,Deeg,Dholpur,Didwana-Kuchaman,Jaipur,Jhunjhunu,Karauli,Khairthal-Tijara,Kotputli-Behror,Nagaur,Pratapgarh,Salumbar,Sawai Madhopur,Sikar,Tonk,Udaipur in next 3 hours.",
+        "advisory": "Please follow SDMA guidelines."
+    },
+    {
+        "severity": "ORANGE",
+        "state": "Rajasthan",
+        "event": "Lightning, Hailstorm, Gusty winds, and Thunder shower",
+        "districts": [
+            "21 Districts Of Rajasthan"
+        ],
+        "reason": "Thundering with Lightning,Hailstorm,Gusty winds,Thunder shower is very likely to occur at isolated places over Alwar,Baran,Bharatpur,Bikaner,Bundi,Churu,Dausa,Deeg,Dholpur,Hanumangarh,Jaipur,Jhalawar,Jhunjhunu,Karauli,Khairthal-Tijara,Kota,Kotputli-Behror,Sawai Madhopur,Sikar,Tonk,Udaipur in next 3 hours.",
+        "advisory": "Please follow SDMA guidelines."
+    },
+    {
+        "severity": "ORANGE",
+        "state": "Uttar Pradesh",
+        "event": "Moderate Thunderstorms with surface wind",
+        "districts": [
+            "Ballia",
+            "Balrampur",
+            "Sharavasti",
+            "Sonbhadra"
+        ],
+        "reason": "Moderate Thunderstorm (wind speed 40- 60 KMph gusting to 70 kmph) with Lightning and Light to Moderate spell of Rain/hail  is very likely to occur at isolated places over Balrampur, Basti, Sant Kabir Nagar, Shravasti, Siddharth Nagar in next 3 hours.",
+        "advisory": "Please follow SDMA guidelines."
+    },
+    {
+        "severity": "ORANGE",
+        "state": "West Bengal",
+        "event": "Moderate Thunderstorms with surface wind",
+        "districts": [
+            "4 Districts Of West Bengal"
+        ],
+        "reason": "Moderate Thunderstorm and lightning accompanied with light to moderate rain and gusty wind with speed 40-50 kmph. very likely to affect over some parts of Bankura, Purulia, East Burdwan, West Burdwan districts during next 2-3 hours from 17:45, 06-06-2026.",
+        "advisory": "Please follow SDMA guidelines."
+    }
+]

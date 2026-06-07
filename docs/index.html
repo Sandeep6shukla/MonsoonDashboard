@@ -1,68 +1,320 @@
 
+<!DOCTYPE html>
 
 <html>
 
 <head>
 
+<meta charset="utf-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
 <title>
-
 India Weather Intelligence
-
 </title>
 
 <style>
 
-body{
+:root {
 
-font-family:Arial,Helvetica,sans-serif;
-
-margin:40px;
-
-background:#f5f5f5;
-
-}
-
-h1{
-
-color:#003366;
+    --bg:#f8fafc;
+    --card:#ffffff;
+    --text:#0f172a;
+    --border:#e2e8f0;
 
 }
 
-.summary{
+body.dark {
 
-background:#d9edf7;
-
-padding:20px;
-
-border-radius:10px;
-
-margin-bottom:30px;
+    --bg:#0f172a;
+    --card:#1e293b;
+    --text:#f8fafc;
+    --border:#334155;
 
 }
 
-.card{
+body {
 
-background:white;
+    margin:0;
+    padding:20px;
 
-padding:20px;
+    background:var(--bg);
 
-margin-top:20px;
+    color:var(--text);
 
-margin-bottom:20px;
-
-border-radius:10px;
-
-box-shadow:0px 0px 5px #cccccc;
+    font-family:
+    Segoe UI,
+    Arial,
+    sans-serif;
 
 }
 
-.footer{
+.header {
 
-margin-top:50px;
+    display:flex;
 
-font-size:14px;
+    justify-content:space-between;
 
-color:gray;
+    align-items:center;
+
+    margin-bottom:20px;
+
+}
+
+.updated-time {
+
+    color:#64748b;
+
+    font-size:14px;
+
+}
+
+.theme-btn {
+
+    border:none;
+
+    cursor:pointer;
+
+    font-size:20px;
+
+    background:none;
+
+}
+
+.tabs {
+
+    display:flex;
+
+    gap:10px;
+
+    margin-bottom:20px;
+
+}
+
+.tab-button {
+
+    border:none;
+
+    padding:10px 16px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+.tab-button.active {
+
+    font-weight:bold;
+
+}
+
+.tab-content {
+
+    display:none;
+
+}
+
+.tab-content.active {
+
+    display:block;
+
+}
+
+.summary-grid {
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(450px,1fr));
+
+    gap:16px;
+
+    margin-bottom:25px;
+
+}
+
+.summary-card {
+
+    background:var(--card);
+
+    border-radius:12px;
+
+    padding:20px;
+
+}
+
+.red-summary {
+
+    border-left:8px solid #dc2626;
+
+}
+
+.orange-summary {
+
+    border-left:8px solid #ea580c;
+
+}
+
+.card-grid {
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(350px,1fr));
+
+    gap:16px;
+
+    margin-bottom:25px;
+
+}
+
+.alert-card {
+
+    background:var(--card);
+
+    border-radius:12px;
+
+    padding:16px;
+
+}
+
+.alert-card.red {
+
+    border-left:8px solid #dc2626;
+
+}
+
+.alert-card.orange {
+
+    border-left:8px solid #ea580c;
+
+}
+
+.urban-card {
+
+    background:var(--card);
+
+    border-radius:12px;
+
+    padding:16px;
+
+}
+
+.city-tab {
+
+    padding:8px 14px;
+
+    margin-right:10px;
+
+    border:none;
+
+    border-radius:8px;
+
+}
+
+details {
+
+    margin-top:10px;
+
+}
+
+h1,h2,h3 {
+
+    margin-top:0;
+
+}
+
+footer {
+
+    margin-top:30px;
+
+    color:#64748b;
+
+}
+
+.health-strip {
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(180px,1fr));
+
+    gap:12px;
+
+    margin-bottom:20px;
+
+}
+
+.health-strip div {
+
+    background:var(--card);
+
+    padding:14px;
+
+    border-radius:12px;
+
+    text-align:center;
+
+    box-shadow:
+    0 1px 3px rgba(0,0,0,0.08);
+
+}
+
+.health-strip strong {
+
+    display:block;
+
+    margin-top:8px;
+
+    font-size:20px;
+
+}
+
+.source-card {
+
+    background:var(--card);
+
+    border-radius:12px;
+
+    padding:20px;
+
+    max-width:500px;
+
+    margin:auto;
+
+    text-align:left;
+
+}
+
+.source-card ul {
+
+    margin:0;
+
+    padding-left:20px;
+
+}
+
+.source-card li {
+
+    margin-bottom:8px;
+
+}
+
+a {
+
+    color:#2563eb;
+
+    text-decoration:none;
+
+}
+
+a:hover {
+
+    text-decoration:underline;
 
 }
 
@@ -72,764 +324,830 @@ color:gray;
 
 <body>
 
-<h1>
 
-🇮🇳 India Weather Intelligence
+    <header class="header">
 
-</h1>
+        <div>
 
-<h3>
+            <h1>
+                India Weather Intelligence
+            </h1>
 
-Business Continuity Platform
+            <div class="updated-time">
+                Last Updated:
+                07-Jun-2026 22:31 IST
+            </div>
 
-</h3>
+        </div>
 
-<hr>
+        <div>
+
+            <button
+                onclick="toggleTheme()"
+                class="theme-btn"
+            >
+                🌙
+            </button>
+
+        </div>
+
+    </header>
+
+    <div class="tabs">
+
+        <button
+            class="tab-button active"
+            onclick="showTab('national')"
+        >
+            National
+        </button>
+
+        <button
+            class="tab-button"
+            onclick="showTab('urban')"
+        >
+            Urban
+        </button>
+
+    </div>
+    
+
+
+    <div class="health-strip">
+
+        <div>
+            🔴 Red Alerts
+            <strong>3</strong>
+        </div>
+
+        <div>
+            🟠 Orange Alerts
+            <strong>16</strong>
+        </div>
+
+        <div>
+            🗺 States
+            <strong>10</strong>
+        </div>
+
+        <div>
+            🏙 Urban Areas
+            <strong>1</strong>
+        </div>
+
+        <div>
+            📡 Sources
+            <strong>2</strong>
+        </div>
+
+    </div>
+
+    
+
+<div
+    id="national"
+    class="tab-content active"
+>
 
 
 
-<div class="summary">
+    <div class="summary-grid">
 
-<h2>
+        <div class="summary-card red-summary">
 
-Today's National Weather Situation
+            <h2>
+                🔴 Red Alert Summary
+            </h2>
 
-</h2>
+            <ul>
+                <li>Andhra Pradesh faces Heat Wave, Lightning, Moderate Thunderstorms with surface wind risks.</li><li>Chhattisgarh faces Moderate Thunderstorms with surface wind, Severe Thunderstorms with surface wind risks.</li><li>Uttar Pradesh faces Moderate Thunderstorms with surface wind, Severe Thunderstorms with surface wind risks.</li>
+            </ul>
 
-<p>
+        </div>
 
-Red alerts are active across Andhra Pradesh, Chhattisgarh, Uttar Pradesh. Orange alerts are active across Andhra Pradesh, Bihar, Chhattisgarh, Karnataka, Kerala, Maharashtra, Odisha, Rajasthan, Uttar Pradesh, West Bengal. Major weather events include Hailstorm, Dust Raising winds, and Lightning, Hailstorm, Gusty winds, and Thunder shower, Heat Wave, Heavy Rain, Lightning, Lightning, Hailstorm, Gusty winds, and Thunder shower, Moderate Thunderstorms, Moderate Thunderstorms with surface wind, Severe Thunderstorms with surface wind, Thunder shower with strong wind, Thunderstorm, Thunderstorm with Lightning, Thunderstorms with Hail. Please follow official SDMA advisories.
+        <div class="summary-card orange-summary">
 
-</p>
+            <h2>
+                🟠 Orange Alert Summary
+            </h2>
+
+            <ul>
+                <li>Bihar faces Moderate Thunderstorms with surface wind, Thunderstorm with Lightning risks.</li><li>Karnataka faces Thunder shower with strong wind risks.</li><li>Kerala faces Heavy Rain, Moderate Thunderstorms risks.</li><li>Maharashtra faces Thunderstorms with Hail risks.</li><li>Odisha faces Moderate Thunderstorms with surface wind, Thunderstorm risks.</li><li>Rajasthan faces Hailstorm, Dust Raising winds, and Lightning, Hailstorm, Gusty winds, and Thunder shower risks.</li><li>West Bengal faces Moderate Thunderstorms with surface wind risks.</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    
+
+
+
+    <section>
+
+        <h2>
+            🔴 Red Alerts
+        </h2>
+
+        <div class="card-grid">
+
+            
+
+        <div class="alert-card red">
+
+            <h3>
+                Andhra Pradesh
+            </h3>
+
+            <p>
+                Heat Wave
+            </p>
+
+            <details>
+
+                <summary>
+                    Affected Areas
+                </summary>
+
+                <div>
+                    57 Mandals
+                </div>
+
+            </details>
+
+        </div>
+
+        
+
+        <div class="alert-card red">
+
+            <h3>
+                Chhattisgarh
+            </h3>
+
+            <p>
+                Severe Thunderstorms with surface wind
+            </p>
+
+            <details>
+
+                <summary>
+                    Affected Areas
+                </summary>
+
+                <div>
+                    Bastar<br>Dantewada<br>Sukma<br>Sukma Districts Of Chhattisgarh
+                </div>
+
+            </details>
+
+        </div>
+
+        
+
+        <div class="alert-card red">
+
+            <h3>
+                Uttar Pradesh
+            </h3>
+
+            <p>
+                Severe Thunderstorms with surface wind
+            </p>
+
+            <details>
+
+                <summary>
+                    Affected Areas
+                </summary>
+
+                <div>
+                    Balrampur<br>Basti
+                </div>
+
+            </details>
+
+        </div>
+
+        
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>
+            🟠 Orange Alerts
+        </h2>
+
+        <div class="card-grid">
+
+            
+
+        <div class="alert-card orange">
+
+            <h3>
+                Andhra Pradesh
+            </h3>
+
+            <p>
+                Lightning
+            </p>
+
+            <details>
+
+                <summary>
+                    Affected Areas
+                </summary>
+
+                <div>
+                    10 Mandals<br>16 Mandals<br>17 Mandals<br>23 Mandals<br>6 Mandals<br>7 Mandals<br>8 Mandals<br>9 Mandals<br>Adoni-1<br>Adoni-2
+                </div>
+
+            </details>
+
+        </div>
+
+        
+
+        <div class="alert-card orange">
+
+            <h3>
+                Andhra Pradesh
+            </h3>
+
+            <p>
+                Moderate Thunderstorms with surface wind
+            </p>
+
+            <details>
+
+                <summary>
+                    Affected Areas
+                </summary>
+
+                <div>
+                    Adoni<br>Alur<br>Amadalavalasa<br>Atmakur<br>Calingapatnam<br>Dhone<br>Gooty<br>Guntakalkanekal<br>Kosigi<br>Kurnool
+                </div>
+
+            </details>
+
+        </div>
+
+        
+
+        <div class="alert-card orange">
+
+            <h3>
+                Bihar
+            </h3>
+
+            <p>
+                Moderate Thunderstorms with surface wind
+            </p>
+
+            <details>
+
+                <summary>
+                    Affected Areas
+                </summary>
+
+                <div>
+                    4 Districts Of Bihar
+                </div>
+
+            </details>
+
+        </div>
+
+        
+
+        <div class="alert-card orange">
+
+            <h3>
+                Bihar
+            </h3>
+
+            <p>
+                Thunderstorm with Lightning
+            </p>
+
+            <details>
+
+                <summary>
+                    Affected Areas
+                </summary>
+
+                <div>
+                    Tslg
+                </div>
+
+            </details>
+
+        </div>
+
+        
+
+        <div class="alert-card orange">
+
+            <h3>
+                Chhattisgarh
+            </h3>
+
+            <p>
+                Moderate Thunderstorms with surface wind
+            </p>
+
+            <details>
+
+                <summary>
+                    Affected Areas
+                </summary>
+
+                <div>
+                    7 Districts Of Chhattisgarh<br>Balrampur<br>Bastar<br>Dantewada<br>Gariyaband<br>Jashpur<br>Kondagaon<br>Mahasamund<br>Raigarh<br>Sakti
+                </div>
+
+            </details>
+
+        </div>
+
+        
+
+        <div class="alert-card orange">
+
+            <h3>
+                Karnataka
+            </h3>
+
+            <p>
+                Thunder shower with strong wind
+            </p>
+
+            <details>
+
+                <summary>
+                    Affected Areas
+                </summary>
+
+                <div>
+                    6 Districts Of Karnataka
+                </div>
+
+            </details>
+
+        </div>
+
+        
+
+        <div class="alert-card orange">
+
+            <h3>
+                Kerala
+            </h3>
+
+            <p>
+                Heavy Rain
+            </p>
+
+            <details>
+
+                <summary>
+                    Affected Areas
+                </summary>
+
+                <div>
+                    5 Districts Of Kerala
+                </div>
+
+            </details>
+
+        </div>
+
+        
+
+        <div class="alert-card orange">
+
+            <h3>
+                Kerala
+            </h3>
+
+            <p>
+                Moderate Thunderstorms
+            </p>
+
+            <details>
+
+                <summary>
+                    Affected Areas
+                </summary>
+
+                <div>
+                    Kozhikode<br>Malappuram<br>Malappuram Districts Of Kerala
+                </div>
+
+            </details>
+
+        </div>
+
+        
+
+        <div class="alert-card orange">
+
+            <h3>
+                Maharashtra
+            </h3>
+
+            <p>
+                Thunderstorms with Hail
+            </p>
+
+            <details>
+
+                <summary>
+                    Affected Areas
+                </summary>
+
+                <div>
+                    Jalgaon<br>Parbhani<br>Parbhani Districts Of Maharashtra
+                </div>
+
+            </details>
+
+        </div>
+
+        
+
+        <div class="alert-card orange">
+
+            <h3>
+                Odisha
+            </h3>
+
+            <p>
+                Moderate Thunderstorms with surface wind
+            </p>
+
+            <details>
+
+                <summary>
+                    Affected Areas
+                </summary>
+
+                <div>
+                    Ganjam<br>Keonjhar<br>Mayurbhanj<br>Puri Etc
+                </div>
+
+            </details>
+
+        </div>
+
+        
+
+        <div class="alert-card orange">
+
+            <h3>
+                Odisha
+            </h3>
+
+            <p>
+                Thunderstorm
+            </p>
+
+            <details>
+
+                <summary>
+                    Affected Areas
+                </summary>
+
+                <div>
+                    9 Districts Of Odisha
+                </div>
+
+            </details>
+
+        </div>
+
+        
+
+        <div class="alert-card orange">
+
+            <h3>
+                Rajasthan
+            </h3>
+
+            <p>
+                Hailstorm, Dust Raising winds, and Lightning
+            </p>
+
+            <details>
+
+                <summary>
+                    Affected Areas
+                </summary>
+
+                <div>
+                    11 Districts Of Rajasthan
+                </div>
+
+            </details>
+
+        </div>
+
+        
+
+        <div class="alert-card orange">
+
+            <h3>
+                Rajasthan
+            </h3>
+
+            <p>
+                Hailstorm, Gusty winds, and Thunder shower
+            </p>
+
+            <details>
+
+                <summary>
+                    Affected Areas
+                </summary>
+
+                <div>
+                    22 Districts Of Rajasthan
+                </div>
+
+            </details>
+
+        </div>
+
+        
+
+        <div class="alert-card orange">
+
+            <h3>
+                Rajasthan
+            </h3>
+
+            <p>
+                Lightning, Hailstorm, Gusty winds, and Thunder shower
+            </p>
+
+            <details>
+
+                <summary>
+                    Affected Areas
+                </summary>
+
+                <div>
+                    21 Districts Of Rajasthan
+                </div>
+
+            </details>
+
+        </div>
+
+        
+
+        <div class="alert-card orange">
+
+            <h3>
+                Uttar Pradesh
+            </h3>
+
+            <p>
+                Moderate Thunderstorms with surface wind
+            </p>
+
+            <details>
+
+                <summary>
+                    Affected Areas
+                </summary>
+
+                <div>
+                    Ballia<br>Balrampur<br>Sharavasti<br>Sonbhadra
+                </div>
+
+            </details>
+
+        </div>
+
+        
+
+        <div class="alert-card orange">
+
+            <h3>
+                West Bengal
+            </h3>
+
+            <p>
+                Moderate Thunderstorms with surface wind
+            </p>
+
+            <details>
+
+                <summary>
+                    Affected Areas
+                </summary>
+
+                <div>
+                    4 Districts Of West Bengal
+                </div>
+
+            </details>
+
+        </div>
+
+        
+
+        </div>
+
+    </section>
+
+    
+
+</div>
+
+<div
+    id="urban"
+    class="tab-content"
+>
+
+
+
+    <div class="urban-tabs">
+
+        <button class="city-tab active">
+            Mumbai
+        </button>
+
+        <button class="city-tab">
+            Delhi
+        </button>
+
+        <button class="city-tab">
+            Chennai
+        </button>
+
+        <button class="city-tab">
+            Bengaluru
+        </button>
+
+    </div>
+
+    <div class="card-grid">
+
+        <div class="urban-card">
+
+            <h3>
+                🌦 Weather
+            </h3>
+
+            <p>
+                Partly cloudy sky with possibility of light rain/ thundershower in city and suburbs Temperature 24°C - 28°C.
+            </p>
+
+        </div>
+
+        <div class="urban-card">
+
+            <h3>
+                ⚠ Warnings
+            </h3>
+
+            <p>
+                Heavy Rainfall advisory active.
+            </p>
+
+        </div>
+
+        <div class="urban-card">
+
+            <h3>
+                🌊 High Tide
+            </h3>
+
+            <p>
+                Next High Tide 3.19 m at 2026-06-07 03:59:00.
+            </p>
+
+        </div>
+
+        <div class="urban-card">
+
+            <h3>
+                🚦 Traffic
+            </h3>
+
+            <p>
+                No active traffic diversions reported.
+            </p>
+
+        </div>
+
+        <div class="urban-card">
+
+            <h3>
+                🌧 Flood Monitoring
+            </h3>
+
+            <p>
+                110 official flood-prone locations under monitoring.
+            </p>
+
+        </div>
+
+        <div class="urban-card">
+
+            <h3>
+                💼 Business Impact
+            </h3>
+
+            <p>
+                Minor weather-related disruptions are possible. Monitor local advisories.
+            </p>
+
+        </div>
+
+    </div>
+
+    
 
 </div>
 
 
+    <footer>
 
-<h2>
+        <div class="source-card">
 
-🔴 RED ALERTS
+            <h3>
+                Dashboard Metadata
+            </h3>
 
-</h2>
+            <p>
+                Version: v1.0.0
+            </p>
 
+            <p>
+                India Weather Intelligence
+            </p>
 
+            <h3>
+                Data Sources
+            </h3>
 
-<div class="card" style="border-left:10px solid red;">
+            <ul>
 
-<h2>Andhra Pradesh</h2>
+                <li>✓ NDMA Sachet</li>
 
-<h3>⚠️ Heat Wave</h3>
+                <li>✓ MCGM Mumbai</li>
 
-<p>
-<b>Affected Areas</b><br>
-57 Mandals
-</p>
+                <li>⏳ IMD API</li>
 
-<p>
-<b>Official Alert</b><br>
-Heat Wave is Likely to occur over 57 Mandals. Please follow SDMA guidelines.
-</p>
+            </ul>
 
-<p>
-<b>Official Advisory</b><br>
-Please follow SDMA guidelines.
-</p>
+        </div>
 
-<p>
-<b>Valid Until</b><br>
-06 Jun 23:55 IST
-</p>
+    </footer>
+    
 
-<p>
-<b>Active Alerts</b><br>
-1
-</p>
+<script>
 
-</div>
+function showTab(tabId) {
 
+    document
+        .querySelectorAll(
+            '.tab-content'
+        )
+        .forEach(
+            tab =>
+            tab.classList.remove(
+                'active'
+            )
+        );
 
+    document
+        .getElementById(
+            tabId
+        )
+        .classList.add(
+            'active'
+        );
 
-<div class="card" style="border-left:10px solid red;">
+}
 
-<h2>Chhattisgarh</h2>
+function toggleTheme() {
 
-<h3>⚠️ Severe Thunderstorms with surface wind</h3>
+    document.body
+        .classList.toggle(
+            'dark'
+        );
 
-<p>
-<b>Affected Areas</b><br>
-Bastar • Dantewada • Sukma • Sukma Districts Of Chhattisgarh
-</p>
+}
 
-<p>
-<b>Official Alert</b><br>
-Severe Thunderstorms with lightning, surface wind and rain is likely to occur at isolated places over Bastar, Dantewada, Sukma in next 3 hours.
-</p>
-
-<p>
-<b>Official Advisory</b><br>
-Please follow SDMA guidelines.
-</p>
-
-<p>
-<b>Valid Until</b><br>
-06 Jun 19:59 IST
-</p>
-
-<p>
-<b>Active Alerts</b><br>
-1
-</p>
-
-</div>
-
-
-
-<div class="card" style="border-left:10px solid red;">
-
-<h2>Uttar Pradesh</h2>
-
-<h3>⚠️ Severe Thunderstorms with surface wind</h3>
-
-<p>
-<b>Affected Areas</b><br>
-Balrampur • Basti
-</p>
-
-<p>
-<b>Official Alert</b><br>
-अगले 3 घंटों में आपके जनपद में कुछ जगहों पर तेज़ आंधी-तूफ़ान (हवा की गति 60-80 किमी/घंटा से 90 किमी/घंटा तक) के साथ बिजली कड़कने और मध्यम से भारी बारिश/ओलावृष्टि की बहुत संभावना है।
-</p>
-
-<p>
-<b>Official Advisory</b><br>
-Please follow SDMA guidelines.
-</p>
-
-<p>
-<b>Valid Until</b><br>
-06 Jun 19:59 IST
-</p>
-
-<p>
-<b>Active Alerts</b><br>
-2
-</p>
-
-</div>
-
-
-
-<hr>
-
-<h2>
-
-🟠 ORANGE ALERTS
-
-</h2>
-
-
-
-<div class="card" style="border-left:10px solid orange;">
-
-<h2>Andhra Pradesh</h2>
-
-<h3>⚠️ Lightning</h3>
-
-<p>
-<b>Affected Areas</b><br>
-10 Mandals • 16 Mandals • 17 Mandals • 23 Mandals • 6 Mandals • 7 Mandals • 8 Mandals • 9 Mandals • Adoni-1 • Adoni-2 • Alur • Aspari • Bandi Atmakur • Bandi Atmakur Mandals • D.Hirehal • D.Hirehal Mandal • Duggirala Mandals • Edlapadu • Gadivemula Mandals • Gangavaram • Gummalakshmipuram Mandals • Guntakal Mandals • Halaharvi Mandal • Halaharvi Mandals • Jaladanki • Jammalamadugu • Jupadu Bungalow Mandals • Kadiri • Kanaganapalle Mandal • Kanekal Mandal • Kolimigundla Mandals • Kondapuram • Kondapuram Mandals • Kothapalli Ndl • Kowthalam • Kurnool Rural • Lingasamudram • Maddikera East Mandals • Mahanandi • Makkuva • Muddanur • Mudigubba • Mylavaram • Nandyal Rural • Narasaraopet • Pagidyala • Pamulapadu • Pamulapadu Mandals • Panyam • Pattikonda • Pattikonda Mandals • Pedanandipadu • Pedda Kadubur • Pedda Kadubur Mandals • Putlur • Ramagiri Mandals • Rayadurg • Rudravaram • Sanjamala Mandal • Sirvel Mandals • Tadpatri • Talupula • Tuggali Mandals • Vararamachandrapuram • Velgode • Velgode Mandals • Vidapanakal • Yellanur • Yerraguntla
-</p>
-
-<p>
-<b>Official Alert</b><br>
-There is a possibility of lightning in your area. During thunderstorms, avoid trees, towers, poles, fields, and open spaces. Seek shelter in safe buildings - Andhra Pradesh Government.
-</p>
-
-<p>
-<b>Official Advisory</b><br>
-Please follow SDMA guidelines.
-</p>
-
-<p>
-<b>Valid Until</b><br>
-07 Jun 01:40 IST
-</p>
-
-<p>
-<b>Active Alerts</b><br>
-37
-</p>
-
-</div>
-
-
-
-<div class="card" style="border-left:10px solid orange;">
-
-<h2>Andhra Pradesh</h2>
-
-<h3>⚠️ Moderate Thunderstorms with surface wind</h3>
-
-<p>
-<b>Affected Areas</b><br>
-Adoni • Alur • Amadalavalasa • Atmakur • Calingapatnam • Dhone • Gooty • Guntakalkanekal • Kosigi • Kurnool • Nandyala • Narasannapeta • Pathapatnam • Pattikonda • Srikakulam • Tekkali
-</p>
-
-<p>
-<b>Official Alert</b><br>
-Moderate Thunderstorms accompanied with Lightning, Gusty winds speed reaching 40-50 kmph and Moderate Rainfall is very likely to occur at a few places over Adoni, Alur, GuntakalKanekal, Gooty, Dhone, Nandyala, Kurnool areas of Ananthapuramu, Kurnool, Nandyal districts in next 3 hours.
-</p>
-
-<p>
-<b>Official Advisory</b><br>
-Take safe shelters, do not take shelter under trees.
-</p>
-
-<p>
-<b>Valid Until</b><br>
-07 Jun 01:07 IST
-</p>
-
-<p>
-<b>Active Alerts</b><br>
-3
-</p>
-
-</div>
-
-
-
-<div class="card" style="border-left:10px solid orange;">
-
-<h2>Bihar</h2>
-
-<h3>⚠️ Moderate Thunderstorms with surface wind</h3>
-
-<p>
-<b>Affected Areas</b><br>
-4 Districts Of Bihar
-</p>
-
-<p>
-<b>Official Alert</b><br>
-Moderate Thunderstorms with lightening/surface wind gusting (40-50 kmph) and light to moderate rain is very likely to occur at many places over Arwal, Bhojpur, Buxar, Rohtas in next 3 hours.
-</p>
-
-<p>
-<b>Official Advisory</b><br>
-Please follow SDMA guidelines.
-</p>
-
-<p>
-<b>Valid Until</b><br>
-06 Jun 20:43 IST
-</p>
-
-<p>
-<b>Active Alerts</b><br>
-1
-</p>
-
-</div>
-
-
-
-<div class="card" style="border-left:10px solid orange;">
-
-<h2>Bihar</h2>
-
-<h3>⚠️ Thunderstorm with Lightning</h3>
-
-<p>
-<b>Affected Areas</b><br>
-Tslg
-</p>
-
-<p>
-<b>Official Alert</b><br>
-Thunderstorm with Lightning is very likely to occur at a few places over Arwal, Gaya, Jehanabad, Nalanda, Patna, Aurangabad, Rohtas in next 3 hours.
-</p>
-
-<p>
-<b>Official Advisory</b><br>
-Please follow SDMA guidelines.
-</p>
-
-<p>
-<b>Valid Until</b><br>
-06 Jun 22:31 IST
-</p>
-
-<p>
-<b>Active Alerts</b><br>
-1
-</p>
-
-</div>
-
-
-
-<div class="card" style="border-left:10px solid orange;">
-
-<h2>Chhattisgarh</h2>
-
-<h3>⚠️ Moderate Thunderstorms with surface wind</h3>
-
-<p>
-<b>Affected Areas</b><br>
-7 Districts Of Chhattisgarh • Balrampur • Bastar • Dantewada • Gariyaband • Jashpur • Kondagaon • Mahasamund • Raigarh • Sakti • Sarangarh Bilaigarh • Sukma • Sukma Districts Of Chhattisgarh
-</p>
-
-<p>
-<b>Official Alert</b><br>
-Moderate Thunderstorms with lightning, surface wind and rain is likely to occur at isolated places over Balrampur, Bastar, Dantewada, Gariyaband, Jashpur, Kondagaon, Mahasamund, Raigarh, Sakti, Sarangarh Bilaigarh, Sukma in next 3 hours.
-</p>
-
-<p>
-<b>Official Advisory</b><br>
-Please follow SDMA guidelines.
-</p>
-
-<p>
-<b>Valid Until</b><br>
-06 Jun 22:13 IST
-</p>
-
-<p>
-<b>Active Alerts</b><br>
-2
-</p>
-
-</div>
-
-
-
-<div class="card" style="border-left:10px solid orange;">
-
-<h2>Karnataka</h2>
-
-<h3>⚠️ Thunder shower with strong wind</h3>
-
-<p>
-<b>Affected Areas</b><br>
-6 Districts Of Karnataka
-</p>
-
-<p>
-<b>Official Alert</b><br>
-Thunder shower with strong wind is likely to occur at isolated places over Belagavi, Gadag, Kalaburagi, Koppal, Raichur, Vijayapura districts in next 3 hours. Source :- IMD BNG
-</p>
-
-<p>
-<b>Official Advisory</b><br>
-Please follow SDMA guidelines.
-</p>
-
-<p>
-<b>Valid Until</b><br>
-06 Jun 22:11 IST
-</p>
-
-<p>
-<b>Active Alerts</b><br>
-1
-</p>
-
-</div>
-
-
-
-<div class="card" style="border-left:10px solid orange;">
-
-<h2>Kerala</h2>
-
-<h3>⚠️ Heavy Rain</h3>
-
-<p>
-<b>Affected Areas</b><br>
-5 Districts Of Kerala
-</p>
-
-<p>
-<b>Official Alert</b><br>
-Heavy rainfall (&gt;15mm/hr)  with gusty winds speed reaching 40 Kmph is very likely to occur at one or two  places in Malappuram, Kozhikode, Wayanad, Kannur  Kasaragod dists  and Lakshadweep Islands in next 3 hours.
-</p>
-
-<p>
-<b>Official Advisory</b><br>
-Please follow SDMA guidelines.
-</p>
-
-<p>
-<b>Valid Until</b><br>
-06 Jun 19:20 IST
-</p>
-
-<p>
-<b>Active Alerts</b><br>
-1
-</p>
-
-</div>
-
-
-
-<div class="card" style="border-left:10px solid orange;">
-
-<h2>Kerala</h2>
-
-<h3>⚠️ Moderate Thunderstorms</h3>
-
-<p>
-<b>Affected Areas</b><br>
-Kozhikode • Malappuram • Malappuram Districts Of Kerala
-</p>
-
-<p>
-<b>Official Alert</b><br>
-Thunderstorms with Moderate rainfall( 5-15mm/hr) to Heavy rainfall (&gt;15mm/hr) and  gusty winds speed reaching 40 Kmph is very likely to occur at one or two  places in Malappuram and Kozhikkode districts. is very likely to occur at most places over Kozhikode, Malappuram in next 3 hours.
-</p>
-
-<p>
-<b>Official Advisory</b><br>
-Please follow SDMA guidelines.
-</p>
-
-<p>
-<b>Valid Until</b><br>
-07 Jun 01:00 IST
-</p>
-
-<p>
-<b>Active Alerts</b><br>
-1
-</p>
-
-</div>
-
-
-
-<div class="card" style="border-left:10px solid orange;">
-
-<h2>Maharashtra</h2>
-
-<h3>⚠️ Thunderstorms with Hail</h3>
-
-<p>
-<b>Affected Areas</b><br>
-Jalgaon • Parbhani • Parbhani Districts Of Maharashtra
-</p>
-
-<p>
-<b>Official Alert</b><br>
-आपल्या जिल्ह्यात काही ठिकाणी विजांच्या कडकडाटासह मेघगर्जना व हलक्या ते मध्यम पावसाच्या सरींची व ताशी ३०-४० किमी वेगाने सोसाट्याचा वारा वाहण्याची तसेच काही ठिकाणी गारपीट होण्याचीही शक्यता आहे.
-</p>
-
-<p>
-<b>Official Advisory</b><br>
-Please follow SDMA guidelines.
-</p>
-
-<p>
-<b>Valid Until</b><br>
-06 Jun 21:00 IST
-</p>
-
-<p>
-<b>Active Alerts</b><br>
-1
-</p>
-
-</div>
-
-
-
-<div class="card" style="border-left:10px solid orange;">
-
-<h2>Odisha</h2>
-
-<h3>⚠️ Moderate Thunderstorms with surface wind</h3>
-
-<p>
-<b>Affected Areas</b><br>
-Ganjam • Keonjhar • Mayurbhanj • Puri Etc
-</p>
-
-<p>
-<b>Official Alert</b><br>
-ଭାରତ ପାଣିପାଗ ବିଭାଗର ତଥ୍ୟ ଅନୁଯାୟୀ, ଆଗାମୀ ତିନି ଘଣ୍ଟା ମଧ୍ୟରେ ଆପଣଙ୍କ ଅଞ୍ଚଳରେ ବଜ୍ରପାତ ସହିତ ବର୍ଷା ଓ ଘୁର୍ଣ୍ଣିଝଡ଼ ହେବାର ସମ୍ଭାବନା ଅଛି । ଏଥିପ୍ରତି ସତର୍କ ରହିବାକୁ ଅନୁରୋଧ । SRC, Odisha
-</p>
-
-<p>
-<b>Official Advisory</b><br>
-Please follow SDMA guidelines.
-</p>
-
-<p>
-<b>Valid Until</b><br>
-07 Jun 00:58 IST
-</p>
-
-<p>
-<b>Active Alerts</b><br>
-2
-</p>
-
-</div>
-
-
-
-<div class="card" style="border-left:10px solid orange;">
-
-<h2>Odisha</h2>
-
-<h3>⚠️ Thunderstorm</h3>
-
-<p>
-<b>Affected Areas</b><br>
-9 Districts Of Odisha
-</p>
-
-<p>
-<b>Official Alert</b><br>
-Thunderstorm is Very Likely to occur over 9 districts of Odisha. Please follow SDMA guidelines.
-</p>
-
-<p>
-<b>Official Advisory</b><br>
-Please follow SDMA guidelines.
-</p>
-
-<p>
-<b>Valid Until</b><br>
-06 Jun 18:40 IST
-</p>
-
-<p>
-<b>Active Alerts</b><br>
-1
-</p>
-
-</div>
-
-
-
-<div class="card" style="border-left:10px solid orange;">
-
-<h2>Rajasthan</h2>
-
-<h3>⚠️ Hailstorm, Dust Raising winds, and Lightning</h3>
-
-<p>
-<b>Affected Areas</b><br>
-11 Districts Of Rajasthan
-</p>
-
-<p>
-<b>Official Alert</b><br>
-Thundering with Hailstorm, Dust Raising winds, and Lightning with light to moderate rain is very likely to occur at isolated places over Ajmer, Beawar, Bhilwara, Bikaner, Bundi, Dausa, Didwana-Kuchaman, Jaipur, Nagaur, Sawai Madhopur, Tonk in next 3 hours.
-</p>
-
-<p>
-<b>Official Advisory</b><br>
-Please follow SDMA guidelines.
-</p>
-
-<p>
-<b>Valid Until</b><br>
-06 Jun 23:39 IST
-</p>
-
-<p>
-<b>Active Alerts</b><br>
-1
-</p>
-
-</div>
-
-
-
-<div class="card" style="border-left:10px solid orange;">
-
-<h2>Rajasthan</h2>
-
-<h3>⚠️ Hailstorm, Gusty winds, and Thunder shower</h3>
-
-<p>
-<b>Affected Areas</b><br>
-22 Districts Of Rajasthan
-</p>
-
-<p>
-<b>Official Alert</b><br>
-Thundering,Hailstorm,Gusty winds, rain is very likely to occur at isolated places over Alwar,Baran,Bharatpur,Bikaner,Chittorgarh,Churu,Dausa,Deeg,Dholpur,Didwana-Kuchaman,Jaipur,Jhunjhunu,Karauli,Khairthal-Tijara,Kotputli-Behror,Nagaur,Pratapgarh,Salumbar,Sawai Madhopur,Sikar,Tonk,Udaipur in next 3 hours.
-</p>
-
-<p>
-<b>Official Advisory</b><br>
-Please follow SDMA guidelines.
-</p>
-
-<p>
-<b>Valid Until</b><br>
-06 Jun 22:04 IST
-</p>
-
-<p>
-<b>Active Alerts</b><br>
-1
-</p>
-
-</div>
-
-
-
-<div class="card" style="border-left:10px solid orange;">
-
-<h2>Rajasthan</h2>
-
-<h3>⚠️ Lightning, Hailstorm, Gusty winds, and Thunder shower</h3>
-
-<p>
-<b>Affected Areas</b><br>
-21 Districts Of Rajasthan
-</p>
-
-<p>
-<b>Official Alert</b><br>
-Thundering with Lightning,Hailstorm,Gusty winds,Thunder shower is very likely to occur at isolated places over Alwar,Baran,Bharatpur,Bikaner,Bundi,Churu,Dausa,Deeg,Dholpur,Hanumangarh,Jaipur,Jhalawar,Jhunjhunu,Karauli,Khairthal-Tijara,Kota,Kotputli-Behror,Sawai Madhopur,Sikar,Tonk,Udaipur in next 3 hours.
-</p>
-
-<p>
-<b>Official Advisory</b><br>
-Please follow SDMA guidelines.
-</p>
-
-<p>
-<b>Valid Until</b><br>
-06 Jun 19:08 IST
-</p>
-
-<p>
-<b>Active Alerts</b><br>
-1
-</p>
-
-</div>
-
-
-
-<div class="card" style="border-left:10px solid orange;">
-
-<h2>Uttar Pradesh</h2>
-
-<h3>⚠️ Moderate Thunderstorms with surface wind</h3>
-
-<p>
-<b>Affected Areas</b><br>
-Ballia • Balrampur • Sharavasti • Sonbhadra
-</p>
-
-<p>
-<b>Official Alert</b><br>
-Moderate Thunderstorm (wind speed 40- 60 KMph gusting to 70 kmph) with Lightning and Light to Moderate spell of Rain/hail  is very likely to occur at isolated places over Balrampur, Basti, Sant Kabir Nagar, Shravasti, Siddharth Nagar in next 3 hours.
-</p>
-
-<p>
-<b>Official Advisory</b><br>
-Please follow SDMA guidelines.
-</p>
-
-<p>
-<b>Valid Until</b><br>
-06 Jun 21:03 IST
-</p>
-
-<p>
-<b>Active Alerts</b><br>
-4
-</p>
-
-</div>
-
-
-
-<div class="card" style="border-left:10px solid orange;">
-
-<h2>West Bengal</h2>
-
-<h3>⚠️ Moderate Thunderstorms with surface wind</h3>
-
-<p>
-<b>Affected Areas</b><br>
-4 Districts Of West Bengal
-</p>
-
-<p>
-<b>Official Alert</b><br>
-Moderate Thunderstorm and lightning accompanied with light to moderate rain and gusty wind with speed 40-50 kmph. very likely to affect over some parts of Bankura, Purulia, East Burdwan, West Burdwan districts during next 2-3 hours from 17:45, 06-06-2026.
-</p>
-
-<p>
-<b>Official Advisory</b><br>
-Please follow SDMA guidelines.
-</p>
-
-<p>
-<b>Valid Until</b><br>
-06 Jun 20:45 IST
-</p>
-
-<p>
-<b>Active Alerts</b><br>
-1
-</p>
-
-</div>
-
-
-
-<hr>
-
-<div class="footer">
-
-<h3>
-
-Data Sources
-
-</h3>
-
-<ul>
-
-<li>
-
-NDMA Sachet CAP
-
-</li>
-
-<li>
-
-State Disaster Management Authorities
-
-</li>
-
-<li>
-
-India Meteorological Department (Future Integration)
-
-</li>
-
-</ul>
-
-<p>
-
-Dashboard generated automatically from official weather alerts.
-
-</p>
-
-</div>
+</script>
 
 </body>
 
 </html>
-

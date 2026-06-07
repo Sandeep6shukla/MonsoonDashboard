@@ -1,0 +1,213 @@
+{
+    "overall_status": "CRITICAL",
+    "red_summary": [
+        "Andhra Pradesh faces Heat Wave, Lightning, Moderate Thunderstorms with surface wind risks.",
+        "Chhattisgarh faces Moderate Thunderstorms with surface wind, Severe Thunderstorms with surface wind risks.",
+        "Uttar Pradesh faces Moderate Thunderstorms with surface wind, Severe Thunderstorms with surface wind risks."
+    ],
+    "orange_summary": [
+        "Bihar faces Moderate Thunderstorms with surface wind, Thunderstorm with Lightning risks.",
+        "Karnataka faces Thunder shower with strong wind risks.",
+        "Kerala faces Heavy Rain, Moderate Thunderstorms risks.",
+        "Maharashtra faces Thunderstorms with Hail risks.",
+        "Odisha faces Moderate Thunderstorms with surface wind, Thunderstorm risks.",
+        "Rajasthan faces Hailstorm, Dust Raising winds, and Lightning, Hailstorm, Gusty winds, and Thunder shower risks.",
+        "West Bengal faces Moderate Thunderstorms with surface wind risks."
+    ],
+    "states": [
+        {
+            "state": "Andhra Pradesh",
+            "severity": "RED",
+            "events": [
+                "Heat Wave",
+                "Lightning",
+                "Moderate Thunderstorms with surface wind"
+            ],
+            "district_count": 84,
+            "districts": [
+                "10 Mandals",
+                "16 Mandals",
+                "17 Mandals",
+                "23 Mandals",
+                "57 Mandals",
+                "6 Mandals",
+                "7 Mandals",
+                "8 Mandals",
+                "9 Mandals",
+                "Adoni"
+            ],
+            "advisories": [
+                "Please follow SDMA guidelines.",
+                "Take safe shelters, do not take shelter under trees."
+            ]
+        },
+        {
+            "state": "Chhattisgarh",
+            "severity": "RED",
+            "events": [
+                "Moderate Thunderstorms with surface wind",
+                "Severe Thunderstorms with surface wind"
+            ],
+            "district_count": 13,
+            "districts": [
+                "7 Districts Of Chhattisgarh",
+                "Balrampur",
+                "Bastar",
+                "Dantewada",
+                "Gariyaband",
+                "Jashpur",
+                "Kondagaon",
+                "Mahasamund",
+                "Raigarh",
+                "Sakti"
+            ],
+            "advisories": [
+                "Please follow SDMA guidelines."
+            ]
+        },
+        {
+            "state": "Uttar Pradesh",
+            "severity": "RED",
+            "events": [
+                "Moderate Thunderstorms with surface wind",
+                "Severe Thunderstorms with surface wind"
+            ],
+            "district_count": 5,
+            "districts": [
+                "Ballia",
+                "Balrampur",
+                "Basti",
+                "Sharavasti",
+                "Sonbhadra"
+            ],
+            "advisories": [
+                "Please follow SDMA guidelines."
+            ]
+        },
+        {
+            "state": "Bihar",
+            "severity": "ORANGE",
+            "events": [
+                "Moderate Thunderstorms with surface wind",
+                "Thunderstorm with Lightning"
+            ],
+            "district_count": 2,
+            "districts": [
+                "4 Districts Of Bihar",
+                "Tslg"
+            ],
+            "advisories": [
+                "Please follow SDMA guidelines."
+            ]
+        },
+        {
+            "state": "Karnataka",
+            "severity": "ORANGE",
+            "events": [
+                "Thunder shower with strong wind"
+            ],
+            "district_count": 1,
+            "districts": [
+                "6 Districts Of Karnataka"
+            ],
+            "advisories": [
+                "Please follow SDMA guidelines."
+            ]
+        },
+        {
+            "state": "Kerala",
+            "severity": "ORANGE",
+            "events": [
+                "Heavy Rain",
+                "Moderate Thunderstorms"
+            ],
+            "district_count": 4,
+            "districts": [
+                "5 Districts Of Kerala",
+                "Kozhikode",
+                "Malappuram",
+                "Malappuram Districts Of Kerala"
+            ],
+            "advisories": [
+                "Please follow SDMA guidelines."
+            ]
+        },
+        {
+            "state": "Maharashtra",
+            "severity": "ORANGE",
+            "events": [
+                "Thunderstorms with Hail"
+            ],
+            "district_count": 3,
+            "districts": [
+                "Jalgaon",
+                "Parbhani",
+                "Parbhani Districts Of Maharashtra"
+            ],
+            "advisories": [
+                "Please follow SDMA guidelines."
+            ]
+        },
+        {
+            "state": "Odisha",
+            "severity": "ORANGE",
+            "events": [
+                "Moderate Thunderstorms with surface wind",
+                "Thunderstorm"
+            ],
+            "district_count": 5,
+            "districts": [
+                "9 Districts Of Odisha",
+                "Ganjam",
+                "Keonjhar",
+                "Mayurbhanj",
+                "Puri Etc"
+            ],
+            "advisories": [
+                "Please follow SDMA guidelines."
+            ]
+        },
+        {
+            "state": "Rajasthan",
+            "severity": "ORANGE",
+            "events": [
+                "Hailstorm, Dust Raising winds, and Lightning",
+                "Hailstorm, Gusty winds, and Thunder shower",
+                "Lightning, Hailstorm, Gusty winds, and Thunder shower"
+            ],
+            "district_count": 3,
+            "districts": [
+                "11 Districts Of Rajasthan",
+                "21 Districts Of Rajasthan",
+                "22 Districts Of Rajasthan"
+            ],
+            "advisories": [
+                "Please follow SDMA guidelines."
+            ]
+        },
+        {
+            "state": "West Bengal",
+            "severity": "ORANGE",
+            "events": [
+                "Moderate Thunderstorms with surface wind"
+            ],
+            "district_count": 1,
+            "districts": [
+                "4 Districts Of West Bengal"
+            ],
+            "advisories": [
+                "Please follow SDMA guidelines."
+            ]
+        }
+    ],
+    "executive_summary": [
+        "Andhra Pradesh faces Heat Wave, Lightning, Moderate Thunderstorms with surface wind risks.",
+        "Chhattisgarh faces Moderate Thunderstorms with surface wind, Severe Thunderstorms with surface wind risks.",
+        "Uttar Pradesh faces Moderate Thunderstorms with surface wind, Severe Thunderstorms with surface wind risks.",
+        "Bihar faces Moderate Thunderstorms with surface wind, Thunderstorm with Lightning risks.",
+        "Karnataka faces Thunder shower with strong wind risks.",
+        "Kerala faces Heavy Rain, Moderate Thunderstorms risks.",
+        "Maharashtra faces Thunderstorms with Hail risks.",
+        "Odisha faces Moderate Thunderstorms with surface wind, Thunderstorm risks."
+    ]
+}

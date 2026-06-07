@@ -1,66 +1,36 @@
 import json
 
-SUMMARY_FILE = "data/processed/weather_dashboard_summary.json"
-ALERT_FILE = "data/processed/dashboard_alerts.json"
+from dashboard.components.header import build_header
+from dashboard.components.summary_cards import build_summary_cards
+from dashboard.components.national_cards import build_national_cards
+from dashboard.components.urban_cards import build_urban_cards
+from dashboard.components.health_strip import build_health_strip
+from dashboard.components.footer import build_footer
+
+
+NATIONAL_ALERTS_FILE = (
+    "data/processed/national_dashboard.json"
+)
+
+NATIONAL_BRIEFING_FILE = (
+    "data/processed/national_briefing.json"
+)
+
+MUMBAI_FILE = (
+    "data/processed/mumbai_summary.json"
+)
+
 OUTPUT_FILE = "docs/index.html"
 
 
-def build_card(alert, color):
+def load_json(path):
 
-    areas = alert.get(
-        "affected_areas",
-        []
-    )
+    with open(
+        path,
+        encoding="utf-8"
+    ) as f:
 
-    if areas:
-        areas = " • ".join(areas)
-    else:
-        areas = alert.get(
-            "area_description",
-            "Not Available"
-        )
-
-    border = "red"
-
-    if color == "ORANGE":
-        border = "orange"
-
-    return f"""
-
-<div class="card" style="border-left:10px solid {border};">
-
-<h2>{alert['state']}</h2>
-
-<h3>⚠️ {alert['event']}</h3>
-
-<p>
-<b>Affected Areas</b><br>
-{areas}
-</p>
-
-<p>
-<b>Official Alert</b><br>
-{alert['headline']}
-</p>
-
-<p>
-<b>Official Advisory</b><br>
-{alert['instruction']}
-</p>
-
-<p>
-<b>Valid Until</b><br>
-{alert.get('valid_until',alert.get('expires',""))}
-</p>
-
-<p>
-<b>Active Alerts</b><br>
-{alert['alert_count']}
-</p>
-
-</div>
-
-"""
+        return json.load(f)
 
 
 def generate_dashboard():
@@ -70,87 +40,337 @@ def generate_dashboard():
     print("GENERATING DASHBOARD")
     print("=" * 60)
 
-    with open(
-        SUMMARY_FILE,
-        encoding="utf-8"
-    ) as f:
+    alerts = load_json(
+        NATIONAL_ALERTS_FILE
+    )
 
-        summary = json.load(f)
+    briefing = load_json(
+        NATIONAL_BRIEFING_FILE
+    )
 
-    with open(
-        ALERT_FILE,
-        encoding="utf-8"
-    ) as f:
+    mumbai = load_json(
+        MUMBAI_FILE
+    )
 
-        alerts = json.load(f)
-
-    html = """
+    html = f"""
+<!DOCTYPE html>
 
 <html>
 
 <head>
 
+<meta charset="utf-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
 <title>
-
 India Weather Intelligence
-
 </title>
 
 <style>
 
-body{
+:root {{
 
-font-family:Arial,Helvetica,sans-serif;
+    --bg:#f8fafc;
+    --card:#ffffff;
+    --text:#0f172a;
+    --border:#e2e8f0;
 
-margin:40px;
+}}
 
-background:#f5f5f5;
+body.dark {{
 
-}
+    --bg:#0f172a;
+    --card:#1e293b;
+    --text:#f8fafc;
+    --border:#334155;
 
-h1{
+}}
 
-color:#003366;
+body {{
 
-}
+    margin:0;
+    padding:20px;
 
-.summary{
+    background:var(--bg);
 
-background:#d9edf7;
+    color:var(--text);
 
-padding:20px;
+    font-family:
+    Segoe UI,
+    Arial,
+    sans-serif;
 
-border-radius:10px;
+}}
 
-margin-bottom:30px;
+.header {{
 
-}
+    display:flex;
 
-.card{
+    justify-content:space-between;
 
-background:white;
+    align-items:center;
 
-padding:20px;
+    margin-bottom:20px;
 
-margin-top:20px;
+}}
 
-margin-bottom:20px;
+.updated-time {{
 
-border-radius:10px;
+    color:#64748b;
 
-box-shadow:0px 0px 5px #cccccc;
+    font-size:14px;
 
-}
+}}
 
-.footer{
+.theme-btn {{
 
-margin-top:50px;
+    border:none;
 
-font-size:14px;
+    cursor:pointer;
 
-color:gray;
+    font-size:20px;
 
-}
+    background:none;
+
+}}
+
+.tabs {{
+
+    display:flex;
+
+    gap:10px;
+
+    margin-bottom:20px;
+
+}}
+
+.tab-button {{
+
+    border:none;
+
+    padding:10px 16px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}}
+
+.tab-button.active {{
+
+    font-weight:bold;
+
+}}
+
+.tab-content {{
+
+    display:none;
+
+}}
+
+.tab-content.active {{
+
+    display:block;
+
+}}
+
+.summary-grid {{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(450px,1fr));
+
+    gap:16px;
+
+    margin-bottom:25px;
+
+}}
+
+.summary-card {{
+
+    background:var(--card);
+
+    border-radius:12px;
+
+    padding:20px;
+
+}}
+
+.red-summary {{
+
+    border-left:8px solid #dc2626;
+
+}}
+
+.orange-summary {{
+
+    border-left:8px solid #ea580c;
+
+}}
+
+.card-grid {{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(350px,1fr));
+
+    gap:16px;
+
+    margin-bottom:25px;
+
+}}
+
+.alert-card {{
+
+    background:var(--card);
+
+    border-radius:12px;
+
+    padding:16px;
+
+}}
+
+.alert-card.red {{
+
+    border-left:8px solid #dc2626;
+
+}}
+
+.alert-card.orange {{
+
+    border-left:8px solid #ea580c;
+
+}}
+
+.urban-card {{
+
+    background:var(--card);
+
+    border-radius:12px;
+
+    padding:16px;
+
+}}
+
+.city-tab {{
+
+    padding:8px 14px;
+
+    margin-right:10px;
+
+    border:none;
+
+    border-radius:8px;
+
+}}
+
+details {{
+
+    margin-top:10px;
+
+}}
+
+h1,h2,h3 {{
+
+    margin-top:0;
+
+}}
+
+footer {{
+
+    margin-top:30px;
+
+    color:#64748b;
+
+}}
+
+.health-strip {{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(180px,1fr));
+
+    gap:12px;
+
+    margin-bottom:20px;
+
+}}
+
+.health-strip div {{
+
+    background:var(--card);
+
+    padding:14px;
+
+    border-radius:12px;
+
+    text-align:center;
+
+    box-shadow:
+    0 1px 3px rgba(0,0,0,0.08);
+
+}}
+
+.health-strip strong {{
+
+    display:block;
+
+    margin-top:8px;
+
+    font-size:20px;
+
+}}
+
+.source-card {{
+
+    background:var(--card);
+
+    border-radius:12px;
+
+    padding:20px;
+
+    max-width:500px;
+
+    margin:auto;
+
+    text-align:left;
+
+}}
+
+.source-card ul {{
+
+    margin:0;
+
+    padding-left:20px;
+
+}}
+
+.source-card li {{
+
+    margin-bottom:8px;
+
+}}
+
+a {{
+
+    color:#2563eb;
+
+    text-decoration:none;
+
+}}
+
+a:hover {{
+
+    text-decoration:underline;
+
+}}
 
 </style>
 
@@ -158,160 +378,73 @@ color:gray;
 
 <body>
 
-<h1>
+{build_header()}
+{build_health_strip(
+    alerts,
+    briefing
+)}
 
-🇮🇳 India Weather Intelligence
+<div
+    id="national"
+    class="tab-content active"
+>
 
-</h1>
+{build_summary_cards(briefing)}
 
-<h3>
-
-Business Continuity Platform
-
-</h3>
-
-<hr>
-
-"""
-
-    html += f"""
-
-<div class="summary">
-
-<h2>
-
-Today's National Weather Situation
-
-</h2>
-
-<p>
-
-{summary['national_summary']}
-
-</p>
+{build_national_cards(alerts)}
 
 </div>
 
-"""
+<div
+    id="urban"
+    class="tab-content"
+>
 
-    html += """
-
-<h2>
-
-🔴 RED ALERTS
-
-</h2>
-
-"""
-
-    red_found = False
-
-    for alert in alerts:
-
-        if alert["severity"] == "RED":
-
-            red_found = True
-
-            html += build_card(
-                alert,
-                "RED"
-            )
-
-    if not red_found:
-
-        html += """
-
-<p>
-
-No active RED alerts.
-
-</p>
-
-"""
-
-    html += """
-
-<hr>
-
-<h2>
-
-🟠 ORANGE ALERTS
-
-</h2>
-
-"""
-
-    orange_found = False
-
-    for alert in alerts:
-
-        if alert["severity"] == "ORANGE":
-
-            orange_found = True
-
-            html += build_card(
-                alert,
-                "ORANGE"
-            )
-
-    if not orange_found:
-
-        html += """
-
-<p>
-
-No active ORANGE alerts.
-
-</p>
-
-"""
-
-    html += """
-
-<hr>
-
-<div class="footer">
-
-<h3>
-
-Data Sources
-
-</h3>
-
-<ul>
-
-<li>
-
-NDMA Sachet CAP
-
-</li>
-
-<li>
-
-State Disaster Management Authorities
-
-</li>
-
-<li>
-
-India Meteorological Department (Future Integration)
-
-</li>
-
-</ul>
-
-<p>
-
-Dashboard generated automatically from official weather alerts.
-
-</p>
+{build_urban_cards(mumbai)}
 
 </div>
+
+{build_footer()}
+
+<script>
+
+function showTab(tabId) {{
+
+    document
+        .querySelectorAll(
+            '.tab-content'
+        )
+        .forEach(
+            tab =>
+            tab.classList.remove(
+                'active'
+            )
+        );
+
+    document
+        .getElementById(
+            tabId
+        )
+        .classList.add(
+            'active'
+        );
+
+}}
+
+function toggleTheme() {{
+
+    document.body
+        .classList.toggle(
+            'dark'
+        );
+
+}}
+
+</script>
 
 </body>
 
 </html>
-
 """
 
     with open(
@@ -323,8 +456,9 @@ Dashboard generated automatically from official weather alerts.
         f.write(html)
 
     print()
-    print("Dashboard Created")
+    print("Dashboard Generated")
     print(OUTPUT_FILE)
+    print()
 
 
 if __name__ == "__main__":

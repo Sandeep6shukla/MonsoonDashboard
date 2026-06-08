@@ -1,0 +1,9 @@
+{
+    "overall_status": "NORMAL",
+    "critical_states": [],
+    "high_risk_states": [],
+    "watch_states": [],
+    "top_business_risks": [],
+    "recommended_actions": [],
+    "todays_assessment": "Overall business continuity status is NORMAL. Continue monitoring official advisories."
+}

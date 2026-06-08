@@ -22,7 +22,7 @@ def update_dashboard():
     try:
 
         subprocess.run(
-            "uv run python run_dashboard.py",
+            "uv run python launcher/run_dashboard.py",
             cwd=PROJECT,
             shell=True,
             check=True

@@ -2,19 +2,19 @@
     "weather_forecast": [
         {
             "id": 1,
-            "max": 28,
-            "min": 24,
-            "forecast": "Partly cloudy sky with possibility of light rain/ thundershower in city and suburbs\n",
-            "dateC": "2026-06-07T02:37:37.218+00:00",
+            "max": 35,
+            "min": 29,
+            "forecast": "Partly cloudy sky with possibility of light rain/ thundershower in city and suburbs. ",
+            "dateC": "2026-06-07T14:44:47.839+00:00",
             "validfor": "24 Hours",
             "weatherTypes": "partially cloudy"
         },
         {
             "id": 2,
-            "max": 34,
+            "max": 35,
             "min": 28,
             "forecast": "Partly cloudy sky with possibility of light rain/ thundershower in city and suburbs. \n",
-            "dateC": "2026-06-07T02:37:53.005+00:00",
+            "dateC": "2026-06-07T14:45:04.892+00:00",
             "validfor": "48 Hours",
             "weatherTypes": "partially cloudy"
         }
@@ -50,8 +50,8 @@
         },
         {
             "warningId": 5,
-            "warningDetails": "Hot and humid condition. Possibility of light rain or thundershowers towards afternoon/evening.",
-            "updatedAt": "2026-06-06T01:56:47.000+00:00",
+            "warningDetails": "Light to moderate rain / Thundershowers",
+            "updatedAt": "2026-06-07T14:45:40.000+00:00",
             "warningFor": "Heavy Rainfall",
             "status": "a"
         },
@@ -72,32 +72,32 @@
     ],
     "high_tides": [
         {
-            "tideid": 1,
-            "tideType": 1,
-            "height": 3.19,
-            "tidetime": "2026-06-07 03:59:00",
-            "tidelabel": "High"
-        },
-        {
             "tideid": 3,
             "tideType": 1,
-            "height": 1.6,
-            "tidetime": "2026-06-07 09:29:00",
+            "height": 0.0,
+            "tidetime": "2026-06-08 00:00:00",
             "tidelabel": "Low"
         },
         {
-            "tideid": 2,
+            "tideid": 1,
             "tideType": 1,
-            "height": 3.89,
-            "tidetime": "2026-06-07 16:35:00",
+            "height": 3.13,
+            "tidetime": "2026-06-08 05:02:00",
             "tidelabel": "High"
         },
         {
             "tideid": 4,
             "tideType": 1,
-            "height": 1.96,
-            "tidetime": "2026-06-07 23:09:00",
+            "height": 1.85,
+            "tidetime": "2026-06-08 10:32:00",
             "tidelabel": "Low"
+        },
+        {
+            "tideid": 2,
+            "tideType": 1,
+            "height": 3.81,
+            "tidetime": "2026-06-08 17:20:00",
+            "tidelabel": "High"
         }
     ],
     "flood_spots": [
